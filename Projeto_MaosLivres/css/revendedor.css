@@ -1,0 +1,486 @@
+.banner{
+	width: 100%;
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}	
+.banner img{
+	width: 100%;
+}
+
+.revendedor{
+	width: 100%;
+	padding: 100px 0;
+	display: flex;
+	background-color: var(--bg);
+}
+.revendedor .container{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.revendedor .bg{
+	width: 100%;
+	position: absolute;
+}
+.atuacao{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 130px;
+	justify-content: space-between;
+	padding-right: 190px;
+}
+.atuacao-text{
+	width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 10px;
+	padding-left: 100px;
+}
+.atuacao-text h2{
+	margin-bottom: 10px;
+	color: var(--text-color4);
+	font-weight: 600;
+}
+.atuacao-text span{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: var(--text-color5);
+}
+.atuacao-text span img{
+	margin-right: 10px;
+}
+.atuacao-img{
+	width: 384px;
+}
+.atuacao-img img{
+	width: 100%;
+}
+.vantagens{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 130px;
+	padding-left: 190px;
+	justify-content: space-between;
+}
+.vantagens-text{
+	width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 10px;
+	padding-right: 100px;
+}
+.vantagens-text h2{
+	margin-bottom: 10px;
+	color: var(--text-color4);
+	font-weight: 600;
+}
+.vantagens-text span{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: var(--text-color5);
+}
+.vantagens-text span img{
+	margin-right: 10px;
+}
+.vantagens-img{
+	width: 384px;
+}
+.vantagens-img img{
+	width: 100%;
+}
+
+.download{
+	width: 100%;
+	padding: 100px 0;
+	display: flex;
+	background-color: var(--bg);
+}
+.download-titulo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.download-titulo h2{
+	color: var(--text-color4);
+    display: flex;
+    align-items: center;
+}
+.download-titulo h2 img {
+    margin-right: 30px;
+}
+.download-content{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	align-items: center;
+}
+.download-slider{
+	width: 100%;
+}
+.download-slide{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	border: 1px solid var(--text-color);
+	padding: 20px;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+.ds-img{
+	width: 56px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFE2E2;
+}
+.ds-text{
+	width: 208px;
+	display: flex;
+	flex-direction: column;
+}
+.ds-text h4{
+	color: var(--text-color4);
+}
+.ds-text p{
+	font-size: 14px;
+	color: var(--text-color5);
+}
+.ds-link{
+	width: 24px;
+}
+
+.prev-download{
+    position: absolute;
+    left: -50px;
+    z-index: 10;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: var(--text-color);
+    width: 26px;
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next-download{
+    position: absolute;
+    right: -50px;
+    z-index: 10;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: var(--text-color);
+    width: 26px;
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.numeros{
+	width: 100%;
+	padding: 100px 0;
+	display: flex;
+	background-color: var(--bg1);
+}
+.numeros-titulo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.numeros-titulo h2{
+	color: var(--text-color4);
+    display: flex;
+    align-items: center;
+}
+.numeros-titulo h2 img {
+    margin-right: 30px;
+}
+.numeros-box{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	justify-content: space-between;
+	gap: 30px;
+}
+.num-box{
+	width: 22%;
+	border-radius: 5px;
+	border: 1px solid var(--text-color);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 15px;
+}
+.num-box h2{
+	color: var(--text-color);
+	font-weight: 600;
+	font-size: 50px;
+}	
+.num-box p{
+	color: var(--text-color4);
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+
+.formulario{
+	width: 100%;
+	padding: 100px 0;
+	display: flex;
+	background-color: var(--bg);
+}
+.formulario .container{
+	width: 600px;
+}
+.formulario-titulo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.formulario-titulo h2{
+	color: var(--text-color4);
+    display: flex;
+    align-items: center;
+}
+.formulario-titulo h2 img {
+    margin-right: 30px;
+}
+.formulario .form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-top: 50px;
+}
+.formulario .form input,
+.formulario .form select{
+	color: #858585;
+	height: 50px;
+	border: none;
+	padding: 0 20px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	border: 1px solid var(--text-color6);
+}
+.formulario .form select{
+	padding: 0 16px;
+}
+.formulario .form input::placeholder,
+.formulario .form select option{
+	font-size: 14px;
+	font-weight: 600;
+	color: #858585;
+}
+.formulario .form div{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+}
+.formulario .form div label{
+	display: flex;
+	font-size: 14px;
+	font-weight: 600;
+	color: #858585;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #fff;
+	align-items: center;
+	padding: 0 20px;
+	border: 1px solid var(--text-color6);
+}
+.formulario .form div label img{
+	margin-right: 10px;
+}
+.formulario .form input[type="file"]{
+	display: none;
+}
+.formulario .form textarea{
+	color: #858585;
+	border: none;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid var(--text-color6);
+}
+.formulario .form textarea::placeholder{
+	font-size: 14px;
+	font-weight: 600;
+	color: #858585;
+}
+.formulario .form a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 65px;
+	color: #fff;
+	font-size: 18px;
+	background-color: var(--text-color);
+	border: 1px solid var(--text-color);
+	border-radius: 5px;
+	transition: ease .3s;
+}
+.formulario .form a:hover{
+	background-color: var(--hover-red);
+	border: 1px solid var(--hover-red);
+	transition: ease .3s;
+}
+.formulario .form button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 65px;
+	color: #fff;
+	font-size: 18px;
+	background-color: var(--text-color);
+	border: 1px solid var(--text-color);
+	border-radius: 5px;
+	transition: ease .3s;
+}
+.formulario .form button:hover{
+	background-color: var(--hover-red);
+	border: 1px solid var(--hover-red);
+	transition: ease .3s;
+}
+
+
+/* MEDIA DESKTOP */
+@media screen and (max-width: 1600px){
+
+}
+
+@media screen and (max-width: 1440px){
+
+}
+
+@media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1270px){
+	.atuacao{
+		padding-right: 140px;
+	}
+	.atuacao-text{
+		padding-left: 0;
+		max-width: 440px;
+		width: fit-content;
+	}
+	.vantagens{
+		padding-left: 140px;
+	}
+	.vantagens-text{
+		padding-right: 0;
+		max-width: 440px;
+		width: fit-content;
+	}
+
+	.prev-download{
+        left: -3%;
+        z-index: 20;
+    }
+    .next-download{
+        right: -3%;
+        z-index: 20;
+    }
+}
+
+@media screen and (max-width: 1100px){
+	.vantagens-img,
+	.atuacao-img{
+		width: 45%;
+	}
+}
+
+/* MOBILE */
+@media screen and (max-width: 1000px){
+    
+}
+
+@media screen and (max-width: 850px){
+    .atuacao{
+    	padding-right: 0;
+    	padding-bottom: 50px;
+    }
+    .vantagens{
+    	padding-left: 0;
+    	padding-top: 50px;
+    }
+    .revendedor .bg{
+    	display: none;
+    }
+    .download-slide{
+    	width: 400px;
+    }
+    .num-box{
+    	width: 46%;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .atuacao,
+    .vantagens{
+    	gap: 30px;
+    }
+    .atuacao-text,
+    .vantagens-text{
+    	width: 100%;
+    	max-width: 100%;
+    }
+    .atuacao-img,
+    .vantagens-img{
+    	display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+	.num-box {
+    	width: 100%;
+	}
+	.formulario .container{
+		width: 90%;
+	}
+	.download-slide{
+		width: 90%;
+	}
+
+	.revendedor{
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.download-slide{
+		flex-direction: column;
+		gap: 30px;
+		width: 70%;
+		text-align: center;
+	}
+}
