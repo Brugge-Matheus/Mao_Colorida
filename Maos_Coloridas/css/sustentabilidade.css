@@ -1,0 +1,159 @@
+@import "variaveis.css";
+
+:root {
+    --default-color: #03738C;
+    --default-hover: #034553;
+    --default-text-color: #D92938;
+
+    --greenColor: #055235f3;
+    --greenHover: #124432;
+
+    --yellowColor: #F2B705;
+
+    --text-color: #EA1F33;
+    --text-color2: #CC1A2C;
+    --text-color4: #42475E;
+    --text-color5: #646981;
+    --text-color6: #bfc0c9;
+
+    --bg: #F4F4F7;
+    --bg1: #EEEE;
+    --hover-red: #9e0211;
+    --ff-primary: 'Inter', sans-serif;
+}
+
+/* Header Processos */
+.processos {
+    width: 100%;
+    position: relative;
+}
+
+.processos .titulo-processos {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 100px 0 0;
+    gap: 20px;
+}
+
+.titulo-processos .span-titulo {
+    color: #F2B705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.titulo-processos h2 {
+    color: var(--greenColor);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+/* Medidias */
+
+.medidas {
+    width: 100%;
+    padding: 200px;
+    display:flex;
+    background-color: var(--bg);
+}
+
+.medidas-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.medidas-titulo h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+
+.medidas-titulo i {
+    font-size: 1em;
+    color: white;
+    background-color: var(--greenColor);
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.box-medidas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.itens-medidas {
+    width: 30%;
+    /* border: 2px solid var(--default-color); */
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.itens-medidas img {
+    border-radius: 30px;
+}
+
+/* .box1 {
+    border: 3px solid black;
+}
+
+.box2 {
+    border: 3px solid black;
+}
+
+.box3 {
+    border: 3px solid black;
+} */
+
+.itens-medidas img {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.itens-medidas h2 {
+    color: var(--greenColor);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itens-medidas p {
+    color: var(--text-color5);
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: center;
+    /* text-align: left; */
+    
+}
+
+.medidas span {
+    width: 100%;
+    margin: auto;
+    font-family: 'inter';
+    padding-top: 15px;
+    color: var(--text-color4);
+}
+
+span i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+

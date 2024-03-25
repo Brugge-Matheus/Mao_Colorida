@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import "variaveis.css";
+
 :root {
     --default-color: #03738C;
     --default-hover: #034553;
     --default-text-color: #D92938;
+
+    --greenColor: #055235f3;
+    --greenHover: #124432;
 
     --text-color: #EA1F33;
     --text-color2: #CC1A2C;
@@ -17,7 +24,6 @@
     --ff-primary: 'Inter', sans-serif;
 }
 
-
 /* Estilos padrão */
 
 html {
@@ -27,6 +33,11 @@ html {
 .container {
     width: 1250px;
     margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 * {
@@ -105,6 +116,56 @@ header {
     color: white;
 }
 
+/* Menu */
+/* .menu {
+    width: 100%;
+    height: 48px;
+    background-color: var(--greenColor);
+    align-items: center;
+    display: flex;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.menu-item {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .menu-drop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+    background-color: var(--greenHover);
+}
+
+.menu-drop {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+}
+
+.menu-drop a {
+    text-decoration: none;
+    color: white;
+} */
+
 /* Sobre nós */
 
 .nossa-historia {
@@ -128,6 +189,7 @@ header {
 
 .hist-img img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .hist-text {
@@ -149,48 +211,77 @@ header {
     line-height: 1.5;
 }
 
-/* SEO */
 
-.nossa-historia1 {
+/* Sustentabilidade em foco */
+
+.processos-container {
     width: 100%;
-    display: flex;
-    padding: 50px 0;
-    justify-content: space-between;
-    background-color: var(--bg);
 }
 
-.container-historia1 {
-    display: flex;
+.processos .processos-container .processos-conteudo  {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.processos .processos-container .processos-conteudo .container {
     justify-content: space-between;
     align-items: center;
 }
 
-.hist-img1 {
+.processos-text {
     display: flex;
-    width: 486px;
-}
-
-.hist-img1 img {
-    width: 100%;
-}
-
-.hist-text1 {
-    width: 50%;
-    display: flex;
+    width: 500px;
     flex-direction: column;
-    align-self: center;
-    padding-right: 100px;
-    gap: 25px; 
+    gap: 20px;
 }
 
-.hist-text1 h2 {
-    font-size: 32px;
-    font-weight: 600;
-    color: var(--default-color);
+.span-titulo {
+    color: #F2B705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
 }
 
-.hist-text1 p {
-    line-height: 1.5;
+.processos-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+.processos-text p {
+    line-height: 1.2;
+    font-family: 'Wix Madefor Text';
+}
+
+.processos-text i {
+    color: #1cbe80;
+}
+
+.processos-text .processos-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.processos-img {
+    width: 530px;
+}
+
+.processos-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 
