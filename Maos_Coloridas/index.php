@@ -10,9 +10,9 @@
     <link rel="shortcut icon" href="imagens/mao_colorida_favicon.jpeg" type="image/x-icon">
 </head>
 <body>
-    <?php include 'home.php';
-
-    
+    <?php 
+    include 'header.php';
+    include 'home.php';
     include 'footer.php';
     ?>
 
