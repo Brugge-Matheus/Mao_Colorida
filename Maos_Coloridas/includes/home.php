@@ -1,56 +1,39 @@
-    <header class="header">
-        <div class="header-container container">
-            <a href="home.html" class="header-logo">
-                <img src="../Maos_Coloridas/imagens/logo-new.png" alt="logo-header">
-            </a>
+    <?php include 'includes/header.php';?>
 
-            <nav class="header-menu">
-                <a href="#nossa-historia" class="header-link">Quem somos</a>
-                <a href="#" class="header-link">Benefícios</a>
-                <a href="#seguranca-patrimonial" class="header-link">Seguranças </a>
-                <a href="#" class="header-link">Blog</a>
-                <a href="#" class="fale-conosco-btn">
-                    <i class="fa-solid fa-paper-plane"></i>
-                    Contatos
-                </a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- <div class="menu">
+    <div class="menu">
         <nav class="container">
             <div class="menu-drop">
                 <i class="fa-solid fa-bars"></i>
                 <a href="#">Categorias</a>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
-        <div class="menu-item">
-            <a href="#">Linha leve</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#">Linha pesada</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#">Motos</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#">Estética e Manutenção</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#">Pneus</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#">Segmentos</a>
-        </div> 
+            <div class="menu-item">
+                <a href="#">Linha leve</a>
             </div>
-        </nav>
-        
-    </div> -->
+            |
+            <div class="menu-item">
+                <a href="#">Linha pesada</a>
+            </div>
+            |
+            <div class="menu-item">
+                <a href="#">Motos</a>
+            </div>
+            |
+            <div class="menu-item">
+                <a href="#">Estética e Manutenção</a>
+            </div>
+            |
+            <div class="menu-item">
+                <a href="#">Pneus</a>
+            </div>
+            |
+            <div class="menu-item">
+                <a href="#">Segmentos</a>
+            </div>
+    </div>
+    </nav>
+
+    </div>
 
     <!-- Nossa história -->
     <section class="nossa-historia" id="nossa-historia">
