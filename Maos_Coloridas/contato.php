@@ -15,12 +15,12 @@ include 'includes\header.php';
             </div>
             <span class="sac-div"></span>
             <div class="sac-infos">
-                <h3>Gamma Distribuidora de Lubrificantes Ltda.</h3>
+                <h3>Mão Colorida Ltda.</h3>
                 <a href="" target="_blank"><img src="imagens/contato/call.png"> (41)3059-4800</a>
                 <a href="" target="_blank"><img src="imagens/contato/mail.png">
-                    atendimento@gammadistribuidora.com.br</a>
+                    email@gmail.com</a>
                 <a href="https://maps.app.goo.gl/vN8udS6GHy7YLrgD8" target="_blank"><img src="imagens/contato/map.png">
-                    Rua Jão Lunardelli, 80 - Cidade Industrial, Curitiba - PR, 81460-100</a>
+                    Rua Jão Lunardelli, 80 - Boqueirão, Curitiba - PR, 00000-000</a>
             </div>
         </div>
     </section>
@@ -31,9 +31,9 @@ include 'includes\header.php';
                 <h2>Fale conosco</h2>
                 <a href="" target="_blank"><img src="imagens/contato/call.png"> (41)3059-4800</a>
                 <a href="" target="_blank"><img src="imagens/contato/mail.png">
-                    atendimento@gammadistribuidora.com.br</a>
-                <a href="" target="_blank"><img src="imagens/contato/insta-pin.png"> @gammadistribuidora</a>
-                <a href="" target="_blank"><img src="imagens/contato/face-pin.png"> Gamma Distribuidora</a>
+                    email@gmail.com</a>
+                <a href="" target="_blank"><img src="imagens/contato/insta-pin.png"> @maocolorida</a>
+                <a href="" target="_blank"><img src="imagens/contato/face-pin.png"> Mão Colorida</a>
             </div>
             <div class="form-div d-flex column">
                 <div class="botoes-form">

@@ -4,31 +4,31 @@
         <nav class="container">
             <div class="menu-drop">
                 <i class="fa-solid fa-bars"></i>
-                <a href="#">Categorias</a>
+                <a href="#">Exemplo</a>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
             <div class="menu-item">
-                <a href="#">Linha leve</a>
+                <a href="#">Exemplo</a>
             </div>
             |
             <div class="menu-item">
-                <a href="#">Linha pesada</a>
+                <a href="#">Exemplo</a>
             </div>
             |
             <div class="menu-item">
-                <a href="#">Motos</a>
+                <a href="#">Exemplo</a>
             </div>
             |
             <div class="menu-item">
-                <a href="#">Estética e Manutenção</a>
+                <a href="#">Exemplo</a>
             </div>
             |
             <div class="menu-item">
-                <a href="#">Pneus</a>
+                <a href="#">Exemplo</a>
             </div>
             |
             <div class="menu-item">
-                <a href="#">Segmentos</a>
+                <a href="#">Exemplo</a>
             </div>
     </div>
     </nav>
