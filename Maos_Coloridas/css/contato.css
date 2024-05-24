@@ -13,6 +13,9 @@
     display: flex;
     align-items: center;
 }
+/* .sac-titulo img {
+    width: 10%;
+} */
 .sac-titulo .text {
     display: flex;
     flex-direction: column;
@@ -30,7 +33,7 @@
 .sac-div {
     width: 1px;
     height: auto;
-    border: 1px solid var(--default-color);
+    border: 1px solid var(--text-color4);
 }
 .sac-infos {
     width: 707px;
@@ -40,22 +43,24 @@
     gap: 20px;
 }
 .sac-infos h3 {
-    color: var(--default-color);
+    color: var(--text-color4);
     font-weight: 600;
 }
 .sac-infos a {
-    color: var(--default-color);
+    color: var(--text-color5);
+    text-decoration: none;
     font-weight: 600;
     display: flex;
     align-items: center;
     transition: ease 0.3s;
 }
 .sac-infos a:hover {
-    color: var(--default-color);
+    color: var(--yellowHover);
     transition: ease 0.3s;
 }
-.sac-infos a img {
+.sac-infos a i {
     margin-right: 15px;
+    color: var(--yellowColor);
 }
 
 .endereco {
@@ -75,12 +80,14 @@
     gap: 40px;
 }
 .endereco-titulo h2 {
-    color: var(--default-color);
+    color: var(--text-color5);
     display: flex;
     align-items: center;
+    font-size: 1.4em;
 }
-.endereco-titulo h2 img {
+.endereco-titulo h2 i {
     margin-right: 30px;
+    font-size: 1.2em;
 }
 .endereco-titulo .botoes-mapas {
     width: 100%;
@@ -91,7 +98,7 @@
     display: flex;
     align-items: center;
     width: fit-content;
-    color: var(--default-color);
+    color: var(--greenColor);
     font-weight: 500;
     font-size: 18px;
     background-color: #fff;
@@ -102,7 +109,7 @@
 .endereco-titulo a:hover,
 .endereco-titulo a.ativo {
     color: #fff;
-    background-color: var(--default-color);
+    background-color: var(--greenColor);
     transition: ease 0.3s;
 }
 .endereco-mapa {
@@ -138,21 +145,27 @@
 }
 .contato-info h2 {
     font-weight: 600;
-    color: var(--default-color);
+    color: var(--text-color4);
     margin-bottom: 20px;
+    font-size: 2em;
 }
 .contato-info a {
     display: flex;
     align-items: center;
     font-weight: 500;
-    color: var(--default-color);
+    color: var(--default-color5);
     transition: ease 0.3s;
+    text-decoration: none;
+}
+.contato-info a i {
+    color: var(--text-color);
+    font-size: 1.3em;
 }
 .contato-info a:hover {
-    color: var(--default-color);
+    color: var(--text-color);
     transition: ease 0.3s;
 }
-.contato-info a img {
+.contato-info a i {
     margin-right: 15px;
 }
 .form-div {
@@ -181,24 +194,25 @@
     display: flex !important;
 }
 .botoes-form button {
+    border: none;
     width: 100%;
     height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--default-color);
+    color: var(--text-color4);
     font-weight: 600;
     transition: ease 0.3s;
 }
 .botoes-form button:hover {
-    background-color: var(--default-color);
+    background-color: var(--text-color);
     color: #fff;
     border-radius: 5px;
     font-weight: 500;
     transition: ease 0.3s;
 }
 .botoes-form button.ativo {
-    background-color: var(--default-color);
+    background-color: var(--text-color);
     color: #fff;
     border-radius: 5px;
     font-weight: 500;
@@ -240,115 +254,14 @@
     height: 65px;
     color: #fff;
     font-size: 18px;
-    background-color: var(--default-color);
-    border: 1px solid var(--default-color);
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
     border-radius: 5px;
     transition: ease 0.3s;
 }
 .contato-form .form button:hover {
-    background-color: var(--default-hover);
-    border: 1px solid var(--default-hover);
-    transition: ease 0.3s;
-}
-
-.modal-trabalhe {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 30;
-    top: -1300px;
-    transition: ease 0.3s;
-}
-.modal-trabalhe .modal-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: var(--default-color);
-    opacity: 0.4;
-    top: 0;
-}
-.modal-trabalhe .form {
-    width: 550px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    position: relative;
-    z-index: 2;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 50px;
-    position: relative;
-}
-.modal-trabalhe .form .fechar-trabalhe {
-    color: var(--default-color);
-    font-size: 30px;
-    font-weight: 700;
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    cursor: pointer;
-}
-.modal-trabalhe .form input {
-    color: var(--default-color);
-    height: 50px;
-    border: none;
-    padding: 0 20px;
-    border-radius: 5px;
-    border: 1px solid var(--default-color);
-}
-.modal-trabalhe .form input::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--default-color);
-}
-.modal-trabalhe .form div {
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-}
-.modal-trabalhe .form div label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    background-color: var(--default-color);
-    cursor: pointer;
-    border-radius: 5px;
-}
-.modal-trabalhe .form div label img {
-    margin-left: 10px;
-}
-.modal-trabalhe .form input[type="file"] {
-    display: none;
-}
-.modal-trabalhe .form button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 65px;
-    color: #fff;
-    font-size: 18px;
-    background-color: var(--default-color);
-    border: 1px solid var(--default-color);
-    border-radius: 5px;
-    transition: ease 0.3s;
-}
-.modal-trabalhe .form button:hover {
-    background-color: var(--default-hover);
-    border: 1px solid var(--default-hover);
-    transition: ease 0.3s;
-}
-
-.modal-trabalhe.opened {
-    top: 0;
+    background-color: var(--hover-red);
+    border: 1px solid var(--hover-red);
     transition: ease 0.3s;
 }
 
@@ -406,22 +319,9 @@
         width: 100%;
         margin: auto;
     }
-
-    .trabalhe-img,
-    .trabalhe-text {
-        max-width: 600px;
-        width: 100%;
-        margin: auto;
-    }
 }
 
 @media screen and (max-width: 800px) {
-    .trabalhe-img img {
-        display: none;
-    }
-    .trabalhe-text {
-        width: 100%;
-    }
     .contato .container {
         flex-direction: column;
         gap: 40px;
@@ -444,10 +344,6 @@
     .contato-info,
     .contato-form {
         width: 100%;
-    }
-    .modal-trabalhe .form {
-        width: 90%;
-        padding: 50px 20px;
     }
 }
 
