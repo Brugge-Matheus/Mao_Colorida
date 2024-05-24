@@ -1,0 +1,354 @@
+@import url("variaveis.css");
+
+.sac {
+    padding: 100px 0;
+}
+.sac .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sac-titulo {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+/* .sac-titulo img {
+    width: 10%;
+} */
+.sac-titulo .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.sac-titulo .text h4 {
+    color: var(--text-color5);
+    font-weight: 600;
+}
+.sac-titulo .text span {
+    font-size: 64px;
+    color: var(--text-color4);
+    font-weight: 600;
+}
+.sac-div {
+    width: 1px;
+    height: auto;
+    border: 1px solid var(--text-color4);
+}
+.sac-infos {
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+}
+.sac-infos h3 {
+    color: var(--text-color4);
+    font-weight: 600;
+}
+.sac-infos a {
+    color: var(--text-color5);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: ease 0.3s;
+}
+.sac-infos a:hover {
+    color: var(--yellowHover);
+    transition: ease 0.3s;
+}
+.sac-infos a i {
+    margin-right: 15px;
+    color: var(--yellowColor);
+}
+
+.endereco {
+    background-color: var(--bg);
+    padding: 100px 0;
+}
+.endereco .container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.endereco-titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.endereco-titulo h2 {
+    color: var(--text-color5);
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+}
+.endereco-titulo h2 i {
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+.endereco-titulo .botoes-mapas {
+    width: 100%;
+    gap: 15px;
+    display: flex;
+}
+.endereco-titulo .botoes-mapas a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: var(--greenColor);
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+.endereco-titulo a:hover,
+.endereco-titulo a.ativo {
+    color: #fff;
+    background-color: var(--greenColor);
+    transition: ease 0.3s;
+}
+.endereco-mapa {
+    width: 100%;
+}
+.endereco-mapa iframe.ativado {
+    display: flex;
+}
+.endereco-mapa iframe {
+    display: none;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contato {
+    background-color: var(--bg1);
+    padding: 100px 0;
+}
+.contato .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contato-info {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contato-info h2 {
+    font-weight: 600;
+    color: var(--text-color4);
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.contato-info a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: var(--default-color5);
+    transition: ease 0.3s;
+    text-decoration: none;
+}
+.contato-info a i {
+    color: var(--text-color);
+    font-size: 1.3em;
+}
+.contato-info a:hover {
+    color: var(--text-color);
+    transition: ease 0.3s;
+}
+.contato-info a i {
+    margin-right: 15px;
+}
+.form-div {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-div .botoes-form {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    gap: 5px;
+}
+.contato-form {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.contato-form.ativado {
+    display: flex !important;
+}
+.botoes-form button {
+    border: none;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color4);
+    font-weight: 600;
+    transition: ease 0.3s;
+}
+.botoes-form button:hover {
+    background-color: var(--text-color);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: ease 0.3s;
+}
+.botoes-form button.ativo {
+    background-color: var(--text-color);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.contato-form .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contato-form .form input {
+    color: var(--text-color4);
+    height: 50px;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.contato-form .form input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+.contato-form .form textarea {
+    color: var(--text-color4);
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+.contato-form .form textarea::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+.contato-form .form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    color: #fff;
+    font-size: 18px;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+.contato-form .form button:hover {
+    background-color: var(--hover-red);
+    border: 1px solid var(--hover-red);
+    transition: ease 0.3s;
+}
+
+/* MEDIA DESKTOP */
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1280px) {
+    .sac-infos {
+        width: 60%;
+    }
+    .trabalhe-img,
+    .trabalhe-text {
+        width: 45%;
+    }
+    .contato .container {
+        padding: 0;
+    }
+    .contato-info {
+        width: 45%;
+    }
+    .form-div {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+}
+
+/* MOBILE */
+@media screen and (max-width: 1000px) {
+    .sac .container {
+        justify-content: center;
+        gap: 50px;
+    }
+    .sac-div {
+        display: none;
+    }
+    .sac-infos {
+        width: 100%;
+    }
+
+    .contato .container {
+        gap: 50px;
+    }
+    .contato-info,
+    .form-div {
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contato .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contato-info,
+    .contato-form {
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .endereco-titulo .botoes-mapas {
+        flex-direction: column;
+    }
+    .endereco-titulo .botoes-mapas a {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contato-info,
+    .contato-form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 375px) {
+}
