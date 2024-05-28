@@ -6,7 +6,7 @@ class Config {
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
-    const DB_DATABASE = 'socialhub';
+    const DB_DATABASE = 'web_maocolorida';
     CONST DB_USER = 'root';
     const DB_PASS = '';
 

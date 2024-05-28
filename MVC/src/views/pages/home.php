@@ -229,7 +229,7 @@
                         atenção e negligência.
                         <br>
                         <br>
-                        Em caso de incidente, é importante procurar imediatamente o técnico de segurança do
+                        Em caso de acidente ou incidente, é importante procurar imediatamente o técnico de segurança do
                         trabalho. Se não estiver disponível, o gestor deve encaminhar o colaborador para atendimento
                         médico e relatar o ocorrido ao RH e aos responsáveis. A Comunicação de Acidente de Trabalho
                         (CAT) deve ser aberta dentro de 24 horas.

@@ -20,10 +20,11 @@
         </a>
 
         <nav class="header-menu">
-            <a href="#" class="header-link">Quem somos</a>
-            <a href="#" class="header-link">Benefícios</a>
-            <a href="#" class="header-link">Seguranças </a>
-            <a href="#" class="header-link">Blog</a>
+            <a href="<?=$base?>/" class="header-link">Sobre</a>
+            <a href="#" class="header-link">Recursos Humanos</a>
+            <a href="#" class="header-link">Ambiental </a>
+            <a href="#" class="header-link">Produção</a>
+            <a href="#" class="header-link">Seguranças</a>
             <a href="<?=$base?>/contato" class="fale-conosco-btn">
                 <i class="fa-solid fa-paper-plane"></i>
                 Contato
