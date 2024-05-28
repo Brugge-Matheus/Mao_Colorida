@@ -439,3 +439,19 @@ footer .container {
     font-weight: bold;
     font-size: 1.1em;
 }
+.flash {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 5px;
+}
+.correct {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}

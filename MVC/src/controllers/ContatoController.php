@@ -3,17 +3,34 @@ namespace src\controllers;
 
 use \core\Controller;
 use \src\models\Contato;
-use \src\models\Trabalhe;
+use \src\models\Curriculo;
 
 class ContatoController extends Controller {
     
-    public function contato() {
-        $this->render('/contato');
+   //  public function contato() {
+   //      $this->render('/contato');
+        
+   //  }
+
+   public function contato() {
+    $flash = ''; 
+    $correct = '';
+
+    if(!empty($_SESSION['flash'])) {
+        $flash = $_SESSION['flash'];
+        $_SESSION['flash'] = '';
     }
 
-    // public function contatoAction() {
-    //     echo 'PAGINA ENCONTRADA';
-    // }
+    if(!empty($_SESSION['correct'])) {
+        $correct = $_SESSION['correct'];
+        $_SESSION['correct'] = '';
+    }
+
+    $this->render('contato', [
+        'flash' => $flash,
+        'correct' => $correct
+    ]);
+}
 
     public function contatoAction() {
       $name = filter_input(INPUT_POST, 'nome');
@@ -34,11 +51,13 @@ class ContatoController extends Controller {
                'body' => $body
             ])->execute();
 
-            $this->redirect('/contato');
+            $_SESSION['correct'] = 'Campos enviado com sucesso';
+            $this->redirect('/contato#sac-contato');
          } 
 
       } 
-      $this->redirect('/');
+      $_SESSION['flash'] = 'Campos não preenchidos corretamente!';
+      $this->redirect('/contato#sac-contato');
    }
 
    public function trabalheAction() {
@@ -49,22 +68,24 @@ class ContatoController extends Controller {
 
     
       if($name && $email && $phone) {
-         $data = Trabalhe::select()->where('email', $email)->execute();
+         $data = Curriculo::select()->where('email', $email)->execute();
 
          if(count($data) === 0) {
             // insert
-            Trabalhe::insert([
+            Curriculo::insert([
                'name' => $name,
                'phone' => $phone,
-               'email' => $email
-            //    'curriculo' => $curriculo
+               'email' => $email,
+               'curriculo' => $curriculo
             ])->execute();
 
-            $this->redirect('/contato');
+            $_SESSION['correct'] = 'Campos enviados com sucesso';
+            $this->redirect('/contato#sac-contato');
          } 
 
-      } 
-      $this->redirect('/');
+      }
+      $_SESSION['flash'] = 'Campos não preenchidos corretamente!';
+      $this->redirect('/contato#sac-contato');
    }
 
 }

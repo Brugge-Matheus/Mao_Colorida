@@ -2,6 +2,6 @@
 namespace src\models;
 use \core\Model;
 
-class Trabalhe extends Model {
+class Curriculo extends Model {
 
 }

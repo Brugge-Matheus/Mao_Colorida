@@ -22,7 +22,7 @@
         </div>
     </section>
 
-    <section class="contato">
+    <section class="contato" id="sac-contato">
         <div class="container">
             <div class="contato-info">
                 <h2>Fale conosco</h2>
@@ -35,6 +35,15 @@
                         class="fa-brands fa-linkedin"></i> Mão Colorida</a>
             </div>
             <div class="form-div d-flex column">
+                <?php if(!empty($flash)):?>
+
+                <div class="flash"><?=$flash?></div>
+
+                <?php elseif((!empty($correct))):?>
+
+                <div class="correct"><?=$correct?></div>
+
+                <?php endif;?>
                 <div class="botoes-form">
                     <button class="sac-b ativo" id="btn-contato" data-target="sac-f">Contato</button>
                     <button class="financeiro-b" id="btn-trabalhe" data-target="financeiro-f">Trabalhe Conosco</button>
