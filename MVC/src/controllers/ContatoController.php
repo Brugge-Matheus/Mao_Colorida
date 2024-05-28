@@ -3,6 +3,7 @@ namespace src\controllers;
 
 use \core\Controller;
 use \src\models\Contato;
+use \src\models\Trabalhe;
 
 class ContatoController extends Controller {
     
@@ -48,11 +49,11 @@ class ContatoController extends Controller {
 
     
       if($name && $email && $phone) {
-         $data = Contato::select()->where('email', $email)->execute();
+         $data = Trabalhe::select()->where('email', $email)->execute();
 
          if(count($data) === 0) {
             // insert
-            Contato::insert([
+            Trabalhe::insert([
                'name' => $name,
                'phone' => $phone,
                'email' => $email
