@@ -55,8 +55,8 @@ class ContatoController extends Controller {
             Contato::insert([
                'name' => $name,
                'phone' => $phone,
-               'email' => $email,
-               'curriculo' => $curriculo
+               'email' => $email
+            //    'curriculo' => $curriculo
             ])->execute();
 
             $this->redirect('/contato');
