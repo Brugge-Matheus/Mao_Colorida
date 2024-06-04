@@ -2,7 +2,9 @@
         <div class="container">
         <div class="footer-logo">
         <picture href="">
-            <img src="<?=$base?>/assets/images/logo-header.png">
+            <a href="<?=$base?>/">
+              <img src="<?=$base?>/assets/images/logo-header.png">
+            </a>
         </picture>
           <a href="">Rua João Lunardelli, 80 - Cidade Industrial,<br> Curitiba - PR, 81460-100</a>
           <a href=""> (41)3059-4800</a>
@@ -12,24 +14,28 @@
 
           <div class="footer-column">
             <span>Menu</span>
-            <a href="">Início</a>
-            <a href="">Quem somos</a>
-            <a href="">Contatos</a>
-            <a href="">Blog</a>
-            <a href="">Trabalhe conosco</a>
+            <a href="<?=$base?>/" class="header-link">Sobre</a>
+            <a href="<?=$base?>/recursos" class="header-link">Recursos Humanos</a>
+            <a href="<?=$base?>/ambiental" class="header-link">Ambiental </a>
+            <a href="<?=$base?>/qualidade" class="header-link">Qualidade</a>
+            <a href="<?=$base?>/segurancas" class="header-link">Seguranças</a>
+            <a href="<?=$base?>/contato" class="header-link">Contato</a>  
           </div>
 
           <div class="footer-column">
-            <span>Categorias</span>
-            <a href="produtos/marcas">Marcas</a>
-            <a href="segmentos">Segmentos</a>
+            <span>Politícas</span>
+            <a href="produtos/marcas">Termos de uso</a>
+            <a href="segmentos">LGPD</a>
           </div>
 
           <div class="footer-column">
             <span>Redes sociais</span>
-            <a href="">Linkedin</a>
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
+            <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41)3122.7550</a>
+            <a href="" target="_blank"><i class="fa-solid fa-envelope"></i>maocolorida@maocolorida.com.br</a>
+            <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
+            class="fa-brands fa-instagram"></i> @maocolorida</a>
+            <a href="http://linkedin.com.br/company/m%C3%A3o-colorida" target="_blank"><i
+            class="fa-brands fa-linkedin"></i> Mão Colorida</a>
           </div>
 
         </div>

@@ -4,26 +4,6 @@
 
 @import "variaveis.css";
 
-:root {
-    --default-color: #03738c;
-    --default-hover: #034553;
-    --default-text-color: #d92938;
-
-    --greenColor: #055235f3;
-    --greenHover: #124432;
-
-    --text-color: #ea1f33;
-    --text-color2: #cc1a2c;
-    --text-color4: #42475e;
-    --text-color5: #646981;
-    --text-color6: #bfc0c9;
-
-    --bg: #f4f4f7;
-    --bg1: #eeee;
-    --hover-red: #9e0211;
-    --ff-primary: "Inter", sans-serif;
-}
-
 /* Estilos padrão */
 
 html {
@@ -409,7 +389,7 @@ footer .container {
 .footer-main {
     display: flex;
     flex-direction: row;
-    width: 650px;
+    width: 700px;
     justify-content: space-between;
 }
 
@@ -417,6 +397,10 @@ footer .container {
     display: flex;
     flex-direction: column;
     color: white;
+}
+
+.footer-column i {
+    margin-right: 5px;
 }
 
 .footer-column a {
@@ -455,3 +439,4 @@ footer .container {
     padding: 10px;
     border-radius: 5px;
 }
+

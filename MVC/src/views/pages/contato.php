@@ -46,7 +46,7 @@
                 <?php endif;?>
                 <div class="botoes-form">
                     <button class="sac-b ativo" id="btn-contato" data-target="sac-f">Contato</button>
-                    <button class="financeiro-b" id="btn-trabalhe" data-target="financeiro-f">Trabalhe Conosco</button>
+                    <button class="financeiro-b" id="btn-trabalhe" data-target="financeiro-f">Indicações</button>
                 </div>
                 <form id="form-sac" class="contato-form sac-f ativado" action="<?=$base?>/contato" method="POST">
                     <div class="form">
