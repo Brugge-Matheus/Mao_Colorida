@@ -15,3 +15,12 @@ document.getElementById("btn-contato").addEventListener("click", function () {
     document.querySelector(".financeiro-f").classList.remove("ativado");
     document.querySelector(".sac-f").classList.add("ativado");
 });
+
+
+function validarFormulario() {
+    $inputFile = document.querySelector('curriculo');
+
+    if($inputFile.files.lenght === 0) {
+        alert("Por favor selecione um arquivo");
+    }
+}

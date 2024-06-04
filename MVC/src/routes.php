@@ -15,6 +15,6 @@ $router->get('/recursos', 'RecursosController@recursosAction');
 
 $router->get('/ambiental', 'AmbientalController@ambientalAction');
 
-$router->get('/Producao', 'ProducaoController@producaoAction');
+$router->get('/qualidade', 'QualidadeController@qualidadeAction');
 
 $router->get('/Segurancas', 'SegurancasController@segurancasAction');
