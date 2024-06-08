@@ -1,6 +1,7 @@
 {
     "require": {
-        "clancats/hydrahon": "^1.1"
+        "clancats/hydrahon": "^1.1",
+        "components/jquery": "^3.6"
     },
     "autoload": {
         "psr-4": {

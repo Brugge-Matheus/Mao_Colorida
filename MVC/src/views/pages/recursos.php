@@ -1,7 +1,7 @@
 <?php $render('header')?>
 
 <!-- Menu -->
-<div class="menu">
+<div class="menu" id="menu">
     <nav class="container">
         <!-- <div class="menu-drop">
             <i class="fa-solid fa-bars"></i>
@@ -87,7 +87,7 @@
             </div>
             <div class="itens-beneficios">
                 <img src="<?=$base?>/assets/images/logo-vr.png" alt="">
-                <h2>VR Seguro alimentação</h2>
+                <h2>VR Seguro</h2>
                 <p> Vale-Refeição para garantir a segurança alimentar dos trabalhadores..</p>
 
             </div>
@@ -139,10 +139,15 @@
                 <div class="ponto-text d-flex">
                     <h3>PONTO ELETRÔNICO</h3>
                     <p>
-                        De acordo com a Portaria <strong>Nº 1.510</strong>, todos os colaboradores devem registrar o ponto eletrônico em momentos específicos: na entrada do trabalho, na saída para o almoço, no retorno do almoço e na saída do trabalho. A tolerância para o registro do ponto é de 10 minutos.
+                        De acordo com a Portaria <strong>Nº 1.510</strong>, todos os colaboradores devem registrar o
+                        ponto eletrônico em momentos específicos: na entrada do trabalho, na saída para o almoço, no
+                        retorno do almoço e na saída do trabalho. A tolerância para o registro do ponto é de 10 minutos.
                         <br>
                         <br>
-                        É importante observar que as horas extras só poderão ser realizadas mediante solicitação e aprovação do gestor da área. Além disso, caso haja a utilização do aplicativo de registro de ponto (Tangerino), é necessário que seja feito apenas nos setores de trabalho designados, evitando seu uso fora desses locais.
+                        É importante observar que as horas extras só poderão ser realizadas mediante solicitação e
+                        aprovação do gestor da área. Além disso, caso haja a utilização do aplicativo de registro de
+                        ponto (Tangerino), é necessário que seja feito apenas nos setores de trabalho designados,
+                        evitando seu uso fora desses locais.
                     </p>
                     <div class="ponto-topicos d-flex">
                         <div class="topico1 d-flex">
@@ -150,11 +155,12 @@
                             <span><i class="fas fa-check laranja"></i> Solicitação e aprovação necessárias.</span>
                             <span><i class="fas fa-check laranja"></i> Pagamento varia: 50%, 60%. </span>
                             <span><i class="fas fa-check laranja"></i> 100% (finais de semana/feriados).</span>
-                        <!-- </div> -->
+                            <!-- </div> -->
                             <!-- <br> -->
-                        <!-- <div class="topico2 d-flex"> -->
+                            <!-- <div class="topico2 d-flex"> -->
                             <h4>Registro de ponto</h4>
-                            <span><i class="fas fa-check laranja"></i> Pontualidade obrigatória, com margem de 10 minutos.</span>
+                            <span><i class="fas fa-check laranja"></i> Pontualidade obrigatória, com margem de 10
+                                minutos.</span>
                             <span><i class="fas fa-check laranja"></i> Restrito aos setores de trabalho.</span>
 
                             <!-- <br> -->
@@ -166,7 +172,7 @@
                     </div>
                 </div>
                 <div class="ponto-img d-flex">
-                    <img src="<?=$base?>/assets/images/imagem-ponto.png" alt="imagem">
+                    <img src="<?=$base?>/assets/images/imagem-ponto3.png" alt="imagem">
                 </div>
             </div>
         </div>
@@ -182,34 +188,44 @@
                     <h3>CANAIS DE DENÚNCIA</h3>
                     <div class="canais-topicos d-flex">
                         <div class="topico1 d-flex">
-                            <span><i class="fas fa-check laranja"></i> Perseguição ou submissão da vítima a pequenos ataques repetidos.</span>
-                            <span><i class="fas fa-check laranja"></i> Se expressa por diversas atitudes do assediador, não necessariamente ilícitas, concretizadas de várias maneiras (gestos, palavras, atitudes, omissões). </span>
+                            <span><i class="fas fa-check laranja"></i> Perseguição ou submissão da vítima a pequenos
+                                ataques repetidos.</span>
+                            <span><i class="fas fa-check laranja"></i> Se expressa por diversas atitudes do assediador,
+                                não necessariamente ilícitas, concretizadas de várias maneiras (gestos, palavras,
+                                atitudes, omissões). </span>
                             <span><i class="fas fa-check laranja"></i> Prática repetida, sistemática.</span>
-                        <!-- </div> -->
+                            <!-- </div> -->
                             <!-- <br> -->
-                        <!-- <div class="topico2 d-flex"> -->
-                            <span><i class="fas fa-check laranja"></i> Criação de uma relação assimétrica de dominante e dominado psicologicamente.</span>
-                            <span><i class="fas fa-check laranja"></i>  Utilização de recurso e meios insidiosos, sutis, que visam diminuir a capacidade de defesa do assediado.</span>
+                            <!-- <div class="topico2 d-flex"> -->
+                            <span><i class="fas fa-check laranja"></i> Criação de uma relação assimétrica de dominante e
+                                dominado psicologicamente.</span>
+                            <span><i class="fas fa-check laranja"></i> Utilização de recurso e meios insidiosos, sutis,
+                                que visam diminuir a capacidade de defesa do assediado.</span>
                             <!-- <br> -->
-                            <span><i class="fas fa-check laranja"></i> Pode ter motivações variadas por parte do assediador.</span>
-                            <span><i class="fas fa-check laranja"></i> Destruição da identidade da vítima, violação da dignidade pessoal, profissional e, sobretudo, da integridade psicofísica do assediado.</span>
-                            <span><i class="fas fa-check laranja"></i>  Danos à saúde mental do assediado.</span>
-                            <span><i class="fas fa-check laranja"></i>  Coloca em risco a manutenção do emprego da vítima.</span>
-                            <span><i class="fas fa-check laranja"></i>   Degrada seu ambiente de trabalho.</span>
+                            <span><i class="fas fa-check laranja"></i> Pode ter motivações variadas por parte do
+                                assediador.</span>
+                            <span><i class="fas fa-check laranja"></i> Destruição da identidade da vítima, violação da
+                                dignidade pessoal, profissional e, sobretudo, da integridade psicofísica do
+                                assediado.</span>
+                            <span><i class="fas fa-check laranja"></i> Danos à saúde mental do assediado.</span>
+                            <span><i class="fas fa-check laranja"></i> Coloca em risco a manutenção do emprego da
+                                vítima.</span>
+                            <span><i class="fas fa-check laranja"></i> Degrada seu ambiente de trabalho.</span>
                         </div>
                     </div>
                     <p>
                         Está passando por uma situação descrita acima?
                         <br>
                         <br>
-                        Acesso o formulário via QRCODE e preencha o formulário para que possamos auxiliar no combate a situações como essas!​
+                        Acesso o formulário via QRCODE e preencha o formulário para que possamos auxiliar no combate a
+                        situações como essas!​
                     </p>
                 </div>
-                
+
                 <div class="canais-img d-flex">
                     <img src="<?=$base?>/assets/images/qr-code.png" alt="imagem">
                 </div>
-                
+
             </div>
         </div>
 </section>

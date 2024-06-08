@@ -1,6 +1,6 @@
 <?php $render('header'); ?>
 
-<div class="menu">
+<div class="menu" id="menu">
     <nav class="container">
         <!-- <div class="menu-drop">
             <i class="fa-solid fa-bars"></i>
@@ -376,5 +376,5 @@
 </section>
 
 
-<script src="js/main.js"></script>
+<script src="<?=$base?>/assets/js/main.js"></script>
 <?=$render('footer')?>

@@ -14,7 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="<?=$base?>/assets/images/mao_colorida_favicon.jpeg" type="image/x-icon">
 </head>
-<header class="header">
+<header class="header" id="header">
     <div class="header-container container">
         <a href="<?=$base?>" class="header-logo">
             <img src="<?=$base?>/assets/images/logo-new.png" alt="logo-header">

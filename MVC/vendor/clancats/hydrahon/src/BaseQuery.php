@@ -14,7 +14,7 @@ class BaseQuery
     /**
      * Query builder callback macros
      * 
-     * @var array
+     * @var array<callable>
      */
     protected $macros = array();
 
@@ -24,14 +24,14 @@ class BaseQuery
      * This data has no influence on the generated query string or parameters directly.
      * But allow you to use the query a state mashine.
      *  
-     * @var array
+     * @var array<mixed>
      */
     protected $flags = array();
 
     /**
      * The callback where we fetch the results from
      *
-     * @var callable
+     * @var callable|null
      */
     protected $resultFetcher = null;
 
@@ -90,7 +90,7 @@ class BaseQuery
      *
      * @param string            $key
      * @param mixed             $default
-     * @return void
+     * @return mixed
      */
     final public function getFlag($key, $default = null)
     {
@@ -116,8 +116,8 @@ class BaseQuery
     /**
      * Allow macro calls 
      * 
-     * @param stirng                $name
-     * @param array                 $arguments
+     * @param string                       $name
+     * @param array<mixed>                 $arguments
      * @return mixed
      */ 
     public function __call($name, $arguments) 
@@ -134,7 +134,7 @@ class BaseQuery
      * Pass the own query to a callback
      * 
      * @param callable              $callback
-     * @return void
+     * @return self
      */
     public function call($callback)
     {
@@ -152,7 +152,7 @@ class BaseQuery
      * Creates a new raw db expression instance
      * 
      * @param string                $expression
-     * @return ClanCats\Hydrahon\Query\Expression
+     * @return Expression
      */
     final public function raw($expression)
     {
