@@ -261,7 +261,7 @@
 .canais {
     width: 100%;
     position: relative;
-    background-color: var(--bg);
+    background-color: #fff;
 }
 
 .canais .titulo-canais {

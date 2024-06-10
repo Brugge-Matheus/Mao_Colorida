@@ -1,6 +1,8 @@
+<!-- Flutuantes -->
 <a href="#header" class="btn"></a>
 <a href="tel:+6494461709" class="btn2"><i class="fa-solid fa-phone"></i></a>
 
+<!-- Footer -->
 <footer>
     <div class="container">
         <div class="footer-logo">

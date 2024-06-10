@@ -1,22 +1,14 @@
 <?php $render('header'); ?>
 
+
 <div class="menu" id="menu">
     <nav class="container">
-        <!-- <div class="menu-drop">
-            <i class="fa-solid fa-bars"></i>
-            <a href="#">Exemplo</a>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div> -->
         <div class="menu-item">
             <a href="#nossa-historia">Quem somos</a>
         </div>
         |
         <div class="menu-item">
-            <a href="#seguranca-patrimonial">Seguranças</a>
-        </div>
-        |
-        <div class="menu-item">
-            <a href="#nosso-foco">Nossos esforços</a>
+            <a href="#nossa-estrutura">Nossa estrutura</a>
         </div>
         |
         <div class="menu-item">
@@ -24,16 +16,11 @@
         </div>
         |
         <div class="menu-item">
-            <a href="#medidas">Medidas</a>
+            <a href="#parceiros">Parceiros</a>
         </div>
-        <!-- |
-        <div class="menu-item">
-            <a href="#">Exemplo</a>
-        </div> -->
+    </nav>
 </div>
-</nav>
 
-</div>
 
 <!-- Nossa história -->
 <section class="nossa-historia" id="nossa-historia">
@@ -62,44 +49,32 @@
 </section>
 
 
-<!-- sustentabilidade e foco -->
-<section class="processos d-flex" id="nosso-foco">
-    <div class="processos-container d-flex">
-        <div class="processos-conteudo d-flex">
-            <div class="container d-flex">
-                <div class="processos-text d-flex">
-                    <h3>SUSTENTABILIDADE EM FOCO</h3>
-                    <p>
-                        Orientar as questões socioambientais associadas aos seguimentos da <strong>Mão
-                            Colorida</strong>, representa o comprometimento da empresa com o meio ambiente, buscando
-                        a melhoria da qualidade de vida dos seus empregados e da comunidade em geral. Reforçando
-                        assim o compromisso com o desenvolvimento sustentável do planeta.
-                        <br>
-                        <br>
-                        A PNRS- LEI Nº 12.305 de 02 de agosto de 2010 que institui a Politica nacional de resíduos
-                        sólidos e a lei que rege o setor de resíduos sólidos e define a ordem de prioridade no
-                        gerenciamento da seguinte maneira:
-
-                    </p>
-                    <div class="processos-topicos d-flex">
-                        <div class="topico1 d-flex">
-                            <span><i class="fas fa-check laranja"></i> Não geração</span>
-                            <span><i class="fas fa-check laranja"></i> Redução</span>
-                            <span><i class="fas fa-check laranja"></i> Reutilização</span>
-                        </div>
-                        <div class="topico2 d-flex">
-                            <span><i class="fas fa-check laranja"></i> Reciclagem</span>
-                            <span><i class="fas fa-check laranja"></i> Tratamento </span>
-                            <span><i class="fas fa-check laranja"></i> Disposiçao adequada</span>
+<!-- Conheça nossa estrutura -->
+<div class="titulo-segurança-pat d-flex" id="nossa-estrutura">
+    <span class="span-titulo">Estrutura</span>
+    <h2>Conheça nossa estrutura</h2>
+</div>
+<section class="estrutura">
+        <div class="container">
+            <div class="estrutura-content">
+                <div class="estrutura-slider">
+                    <?php for($i = 1; $i <= 10; $i++): ?>
+                    <div>
+                        <div class="linha-slide">
+                            <img src="<?=$base?>/assets/images/galeria<?=$i?>.jpg">
+                            
                         </div>
                     </div>
+                    <?php endfor; ?>
                 </div>
-                <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/processos-img.jpg" alt="imagem">
-                </div>
+                <span class="prev-estrutura"><i class="fa-solid fa-chevron-left"></i></span>
+                <span class="next-estrutura"><i class="fa-solid fa-chevron-right"></i></span>
             </div>
         </div>
-</section>
+    </section>
+
+
+
 
 
 <!-- nossos objetivos -->
@@ -136,110 +111,32 @@
     </div>
 </section>
 
-<!-- Segurança Patrimonial -->
-<div class="titulo-segurança-pat d-flex" id="seguranca-patrimonial">
-    <span class="span-titulo">Responsabilidade</span>
-    <h2>Segurança Patrimonial</h2>
-</div>
-<section class="seg-pat d-flex">
-    <div class="container d-flex">
-        <div class="texto1 d-flex">
-            <span class="span-titulo-seg-pat">Alerta de Responsabilidade</span>
-            <h2>Cuidados com Pertences na Mão Colorida</h2>
-            <p class="cor-2">
-                A Mão Colorida não assume qualquer responsabilidade por objetos de valor deixados nos armários. É
-                importante ressaltar que a guarda e segurança desses pertences são inteiramente de responsabilidade
-                do próprio colaborador</p>
-            <img src="<?=$base?>/assets/images/imagem-seg-pat.jpg" alt="imagem">
+
+<!-- Clientes atendindos -->
+<section class="clientes d-flex" id="parceiros">
+        <div class="container d-flex">
+            
+        <div class="titulo-segurança-pat d-flex" id="seguranca-patrimonial">
+            <span class="span-titulo">Parceiros</span>
+            <h2>Quem confia na Mão Colorida?</h2>
         </div>
-        <div class="texto2 d-flex">
-            <div class="titulo d-flex ">
-                <h3>Procedimentos internos</h3>
-            </div>
-            <div class="topicos d-flex">
-                <div class="box">
-                    <div class="d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
+
+            <div class="clientes-div d-flex">
+                <span class="prev-cli"><i class="fas fa-chevron-left"></i></span>
+                <div class="clientes-slider">
+                    <?php for($i = 1; $i <= 6; $i++): ?>
+                    <div>
+                        <div class="box">
+                            <img src="<?=$base?>/assets/images/cliente<?=$i?>.png" alt="imagem">
+                        </div>
                     </div>
-                    <div class="box-texto d-flex">
-                        <h4>Proibido fotografar</h4>
-                        <p class="cor-2">
-                            Proibido fotografar ou filmar as dependências da empresa
-                            (exceções serão tratadas com o gerente do setor e
-                            conhecimento da diretoria).</p>
-                    </div>
+                    <?php endfor; ?>
                 </div>
-                <div class="box">
-                    <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
-                    </div>
-                    <div class="box-texto d-flex">
-                        <h4>Uso de objetos</h4>
-                        <p class="cor-2">
-                            Probido o uso de qualquer objeto que não seja para o
-                            desempenho do serviço.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
-                    </div>
-                    <div class="box-texto d-flex">
-                        <h4>Portar bolsas</h4>
-                        <p class="cor-2">
-                            Proibido permanecer ou andar dentro da fabrica portanto bolsas,
-                            sacolas etc.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
-                    </div>
-                    <div class="box-texto d-flex">
-                        <h4>Uso de celulares</h4>
-                        <p class="cor-2">
-                            Probido o uso de celulares, rádios, aparelhos sonoros, fones de ouvidos
-                            ou qualquer objeto que não seja para o desempenho do
-                            serviço. *Exceto funcionários liberados pela gerência.</p>
-                    </div>
-                </div>
+                <span class="next-cli"><i class="fas fa-chevron-right"></i></span>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<!-- Segurança Do Trabalho -->
-<section class="processos d-flex" id="segurança-do-trabalho">
-    <div class="titulo-processos d-flex">
-        <span class="span-titulo">Trabalho Seguro</span>
-        <h2>Segurança do Trabalho</h2>
-    </div>
-    <div class="processos-container d-flex">
-        <div class="processos-conteudo d-flex">
-            <div class="container d-flex">
-                <div class="processos-text d-flex">
-                    <span class="span-titulo">Compromisso</span>
-                    <h3>PRIORIZANDO A SEGURANÇA</h3>
-                    <p>
-                        A Segurança do Trabalho consiste em medidas preventivas para evitar acidentes e proteger a
-                        saúde dos colaboradores. Os acidentes no trabalho têm causas como stress, fadiga, falta de
-                        atenção e negligência.
-                        <br>
-                        <br>
-                        Em caso de acidente ou incidente, é importante procurar imediatamente o técnico de segurança do
-                        trabalho. Se não estiver disponível, o gestor deve encaminhar o colaborador para atendimento
-                        médico e relatar o ocorrido ao RH e aos responsáveis. A Comunicação de Acidente de Trabalho
-                        (CAT) deve ser aberta dentro de 24 horas.
-
-                    </p>
-                </div>
-                <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/sobre-nos-img.png" alt="imagem">
-                </div>
-            </div>
-        </div>
-</section>
 
 
 <!-- Segurança Do Trabalho -->
@@ -307,74 +204,9 @@
         </div>
 </section>
 
-<!-- Medidas -->
-<section class="medidas" id="medidas">
-    <div class="container">
-        <div class="medidas-titulo">
-            <h2>
-                <i class="fa-solid fa-earth-americas"></i>
-                Medidas
-
-            </h2>
-
-        </div>
-
-        <div class="box-medidas">
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/ppe.png" alt="">
-                <h2>Manuseio Correto</h2>
-                <p>Durante o manuseio dos resíduos o manipulador devera utilizar os seguintes equipamentos de
-                    proteção individual: Luvas de PVC ou borracha e impermeável. Avental de PVC, impermeável e de
-                    médio comprimento.</p>
-            </div>
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/litter.png" alt="">
-                <h2>Coleta Interna</h2>
-                <p>Após a coleta interna, o manipulador deve lavar as mãos ainda enluvadas, retirando as luvas e
-                    colocando-as em local apropriado. Em caso de ruptura das luvas, o funcionário deve descarta-las
-                    imediatamente.
-
-                </p>
-            </div>
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/wash-your-hands.png" alt="">
-                <h2>Equipamentos de Proteção</h2>
-                <p>Os equipamentos de proteção individual dever ser desinfetados diariamente. Sempre que houver
-                    contaminação com material infectado, devem ser substituídos imediatamente ou lavados.</p>
-            </div>
-        </div>
-
-        <div class="box-medidas">
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/no-food.png" alt="">
-                <h2>Não se Alimentar </h2>
-                <p>Evitar comer ao lidar com resíduos é essencial para prevenir contaminações. Manter essa separação
-                    entre atividades alimentares e o manuseio de resíduos é fundamental para proteger a saúde e
-                    promover uma cultura de higiene e segurança.</p>
-            </div>
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/gloves.png" alt="">
-                <h2>Retirar as Luvas</h2>
-                <p>É crucial que, ao exercer atividades não relacionadas aos resíduos, como ir ao sanitário, atender
-                    o telefone ou beber água, o manipulador retire as luvas e lave as mãos. Esse procedimento é
-                    essencial para manter a higiene e prevenir a contaminação cruzada.</p>
-            </div>
-            <div class="itens-medidas">
-                <img src="<?=$base?>/assets/icons/household.png" alt="">
-                <h2>Ambiente Limpo</h2>
-                <p>Manter o ambiente limpo é essencial para a saúde e o bem-estar de todos. É uma prática simples,
-                    mas que faz uma grande diferença no dia a dia, proporcionando um espaço mais agradável e seguro
-                    para viver e trabalhar.</p>
-            </div>
-
-            <span><i class="fa-solid fa-triangle-exclamation"></i>Em caso de acidente com resíduos: Notificar
-                imediatamente o gestor, segurança e medicina do trabalho e encaminhar para o pronto atendimento se
-                necessário.</span>
-
-        </div>
-    </div>
-</section>
 
 
-<script src="<?=$base?>/assets/js/main.js"></script>
+
+<script src="<?=$base?>/assets/js/slider.js"></script>
+<script src="<?=$base?>/assets/js/functions.js"></script>
 <?=$render('footer')?>
