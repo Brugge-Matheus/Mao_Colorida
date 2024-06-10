@@ -58,14 +58,14 @@
         <div class="container">
             <div class="estrutura-content">
                 <div class="estrutura-slider">
-                    <?php for($i = 1; $i <= 10; $i++): ?>
+                <?php for($i = 1; $i <= 10; $i++): ?>
                     <div>
-                        <div class="linha-slide">
+                        <div class="estrutura-slide">
                             <img src="<?=$base?>/assets/images/galeria<?=$i?>.jpg">
-                            
+                            <h3><?=$estruturas[($i - 1)]?></h3>
                         </div>
                     </div>
-                    <?php endfor; ?>
+                <?php endfor; ?>
                 </div>
                 <span class="prev-estrutura"><i class="fa-solid fa-chevron-left"></i></span>
                 <span class="next-estrutura"><i class="fa-solid fa-chevron-right"></i></span>
