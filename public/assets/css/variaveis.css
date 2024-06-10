@@ -1,0 +1,23 @@
+:root {
+    --default-color: #03738C;
+    --default-hover: #034553;
+    --default-text-color: #D92938;
+
+    --greenColor: #055235f3;
+    --greenHover: #124432;
+
+    --yellowColor: #FFD133;
+    --yellowHover: #FFC80E;
+
+
+    --text-color: #EA1F33;
+    --text-color2: #CC1A2C;
+    --text-color4: #42475E;
+    --text-color5: #646981;
+    --text-color6: #bfc0c9;
+
+    --bg: #F4F4F7;
+    --bg1: #EEEE;
+    --hover-red: #9e0211;
+    --ff-primary: 'Inter', sans-serif;
+}

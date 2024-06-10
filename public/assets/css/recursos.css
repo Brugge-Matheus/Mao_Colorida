@@ -1,0 +1,368 @@
+/* Nossos pagamentos */
+
+.pagamentos {
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    background-color: var(--bg);
+}
+
+.pagamentos-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pagamentos-titulo h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+
+.pagamentos-titulo i {
+    font-size: 1em;
+    color: white;
+    background-color: var(--default-color);
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.box-pagamentos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.itens-pagamentos {
+    width: 30%;
+    /* border: 2px solid var(--default-color); */
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.box1-pagamentos {
+    border: 3px solid #04593a;
+}
+
+.box2-pagamentos {
+    border: 3px solid #04593a;
+}
+
+.box3-pagamentos {
+    border: 3px solid #04593a;
+}
+
+.itens-pagamentos img {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.itens-pagamentos h2 {
+    color: var(--default-color);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itens-pagamentos p {
+    color: var(--text-color5);
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+/* Benefícios */
+
+.beneficios {
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    background-color: white;
+}
+
+.beneficios-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios-titulo h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+
+.beneficios-titulo i {
+    font-size: 1em;
+    color: white;
+    background-color: var(--greenColor);
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.box-beneficios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.itens-beneficios {
+    width: 30%;
+    /* border: 2px solid var(--default-color); */
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.itens-beneficios img {
+    border-radius: 30px;
+}
+
+/* .box1 {
+    border: 3px solid black;
+}
+
+.box2 {
+    border: 3px solid black;
+}
+
+.box3 {
+    border: 3px solid black;
+} */
+
+.itens-beneficios img {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.itens-beneficios h2 {
+    color: var(--greenColor);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itens-beneficios p {
+    color: var(--text-color5);
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: center;
+    /* text-align: left; */
+}
+
+.beneficios span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "inter";
+    padding-top: 15px;
+    color: var(--text-color4);
+}
+
+.beneficios span i {
+    margin-right: 10px;
+}
+
+
+/* Ponto eletrônico */
+
+.ponto-container {
+    width: 100%;
+    background-color: var(--bg);
+}
+
+.ponto .ponto-container .ponto-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.ponto .ponto-container .ponto-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ponto-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.ponto-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+.ponto-topicos h4 {
+    color: var(--text-color4);
+}
+
+.ponto-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.ponto-text i {
+    color: #1cbe80;
+}
+
+.ponto-text .ponto-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ponto-img {
+    width: 530px;
+}
+
+.ponto-img img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Canais de denuncia */
+.canais {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.canais .titulo-canais {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--bg);
+    padding: 100px 0 0;
+    gap: 20px;
+}
+
+.titulo-canais .span-titulo {
+    color: #F2B705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.titulo-canais h2 {
+    color: var(--greenColor);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.canais-container {
+    width: 100%;
+}
+
+.canais .canais-container .canais-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.canais .canais-container .canais-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.canais-text {
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-canais {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.canais-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+
+.canais-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.canais-text i {
+    color: #1cbe80;
+}
+
+.canais-text .canais-topicos {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.canais-img {
+    width: 530px;
+}
+
+.canais-img img {
+    width: 80%;
+    /* object-fit: cover; */
+    border-radius: 15px;
+}

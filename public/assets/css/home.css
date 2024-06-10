@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
+
+@import "variaveis.css";
+
+/* Estilos padrão */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "inter", cursive;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+
+/* Nossa estrutura */
+.estrutura{
+    width: 100%;
+    background-color: white;
+    padding: 100px 0;
+}
+.estrutura-content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.estrutura-slider{
+    width: 100%;
+}
+.estrutura-slider .linha-slide{
+    display: flex;
+    margin: 0 auto;
+    width: 92%;
+    max-width: 386px;
+    position: relative;
+    transition: ease .3s;
+    scale: 0.9;
+}
+.estrutura-slider .linha-slide:hover{
+    scale: 1;
+    transition: ease .3s;
+}
+.estrutura-slider .linha-slide img{
+    width: 100%;
+    border-radius: 10px;
+}
+.prev-estrutura{
+    position: absolute;
+    left: -50px;
+    z-index: 10;
+}
+.next-estrutura{
+    position: absolute;
+    right: -50px;
+    z-index: 10;
+}
+.prev-estrutura i,
+.next-estrutura i{
+    color: #fff;
+    background-color: var(--default-color);
+    font-size: 25px;
+    cursor: pointer;
+    width: 26px;
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.fale-conosco-btn {
+    background-color: var(--default-color);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.fale-conosco-btn:hover {
+    background-color: var(--default-hover);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.fale-conosco-btn i {
+    margin-right: 10px;
+    color: white;
+}
+
+/* Menu */
+/* .menu {
+    width: 100%;
+    height: 48px;
+    background-color: var(--default-color);
+    align-items: center;
+    display: flex;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.menu-item {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* .menu .menu-drop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+    background-color: var(--default-hover);
+}
+
+.menu-drop {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+}
+
+.menu-drop a {
+    text-decoration: none;
+    color: white;
+} */
+
+/* Sobre nós */
+
+.nossa-historia {
+    width: 100%;
+    display: flex;
+    padding: 150px 0;
+    justify-content: space-between;
+    background-color: var(--bg);
+}
+
+.container-historia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hist-img {
+    display: flex;
+    width: 486px;
+}
+
+.hist-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.hist-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 100px;
+    gap: 25px;
+}
+
+.hist-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--default-color);
+}
+
+.hist-text p {
+    line-height: 1.5;
+}
+
+
+
+/* Nossos objetivos */
+
+.objetivos {
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    background-color: var(--bg);
+}
+
+.objetivos-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.objetivos-titulo h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-color4);
+}
+
+.objetivos-titulo i {
+    font-size: 1em;
+    color: white;
+    background-color: var(--default-color);
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.box-objetivos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.itens-objetivos {
+    width: 30%;
+    /* border: 2px solid var(--default-color); */
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.box1 {
+    border: 3px solid #04593a;
+}
+
+.box2 {
+    border: 3px solid #8c1b24;
+}
+
+.box3 {
+    border: 3px solid #f2b705;
+}
+
+.itens-objetivos img {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.itens-objetivos h2 {
+    color: var(--default-color);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itens-objetivos p {
+    color: var(--text-color5);
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+
+
+
+/* cliente */
+.clientes {
+    width: 100%;
+    padding: 100px 0;
+    background-color: var(--bg3);
+}
+.clientes .container {
+    gap: 50px;
+    justify-content: center;
+}
+.clientes .titulo {
+    width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.clientes-content {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+.clientes-content .box {
+    max-width: 380px;
+    flex-direction: column;
+    text-align: center;
+}
+.clientes-content .box h2 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.clientes-content .box h2 span {
+    font-size: 64px;
+    font-weight: 600;
+}
+.clientes-content .box .roxo {
+    font-weight: 600;
+}
+.clientes .clientes-div {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.clientes .clientes-div .prev-cli,
+.clientes .clientes-div .next-cli {
+    position: absolute;
+    z-index: 3;
+}
+.clientes .clientes-div .prev-cli:hover,
+.clientes .clientes-div .next-cli:hover {
+    scale: 1.15;
+    transition: ease 0.3s;
+}
+.clientes .clientes-div .prev-cli i,
+.clientes .clientes-div .next-cli i {
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    background-color: var(--default-color);
+    border-radius: 50%;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.clientes .clientes-div .prev-cli {
+    left: -50px;
+}
+.clientes .clientes-div .next-cli {
+    right: -50px;
+}
+.clientes .clientes-slider {
+    width: 100%;
+}
+.clientes .clientes-slider .box {
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    margin: 0 auto;
+    scale: 0.95;
+    transition: ease 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clientes .clientes-slider .box:hover {
+    scale: 1;
+    transition: ease 0.3s;
+}
+.clientes .clientes-slider .box img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+
+
+/* Alerts */
+.flash {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 5px;
+}
+.correct {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
