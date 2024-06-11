@@ -58,10 +58,10 @@
     <div class="container">
         <div class="estrutura-content">
             <div class="estrutura-slider">
-                <?php for($i = 1; $i <= 10; $i++): ?>
+                <?php for($i = 1; $i <= 8; $i++): ?>
                 <div>
                     <div class="estrutura-slide">
-                        <img src="<?=$base?>/assets/images/galeria<?=$i?>.jpg">
+                        <img src="<?=$base?>/assets/images/estrutura<?=$i?>.jpeg">
                         <h3><?=$estruturas[($i - 1)]?></h3>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
 
 
 <!-- Segurança Do Trabalho -->
-<section class="processos d-flex">
+<!-- <section class="processos d-flex">
     <div class="titulo-processos d-flex">
         <span class="span-titulo">Trabalho Seguro</span>
         <h2>Segurança do Trabalho</h2>
@@ -173,7 +173,7 @@
 
 
 <!-- Segurança Do Trabalho -->
-<section class="processos d-flex">
+<!-- <section class="processos d-flex">
     <div class="titulo-processos d-flex">
         <span class="span-titulo">Trabalho Seguro</span>
         <h2>Segurança do Trabalho</h2>
@@ -202,7 +202,7 @@
                 </div>
             </div>
         </div>
-</section>
+</section>  -->
 
 
 

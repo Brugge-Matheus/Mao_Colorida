@@ -7,17 +7,16 @@ class HomeController extends Controller {
 
     public function index() {
         $estruturas = [
-        'ADMINISTRATIVO',
-        'ALMOXARIFADO',
-        'RECORTES',
+        'RECORTE',
         'MARCENARIA',
-        'LASER',
+        'EMBALAGEM',
+        'EXPEDIÇÃO',
+        'PINTURA LIQUIDA',
         'METALÚRGICA',
-        'PINTURA LÍQUIDA',
-        'MONTAGEM',
-        'IMPRESSÃO 3D',
-        'SERIGRAFIA'];
-
+        'LASER',
+        'MONTAGEM'
+        ];
+    
         $this->render('home', [
             'estruturas' => $estruturas
         ]);
