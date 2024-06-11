@@ -69,65 +69,67 @@
             <h2>
                 <i class="fa-solid fa-earth-americas"></i>
                 Medidas
-
             </h2>
-
         </div>
 
         <div class="box-medidas">
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Durante o manuseio dos resíduos, o manipulador deve usar luvas e avental impermeáveis de PVC.">
                 <img src="<?=$base?>/assets/icons/ppe.png" alt="">
                 <h2>Manuseio Correto</h2>
-                <p>Durante o manuseio dos resíduos o manipulador devera utilizar os seguintes equipamentos de
-                    proteção individual: Luvas de PVC ou borracha e impermeável. Avental de PVC, impermeável e de
-                    médio comprimento.</p>
+                <button class="ver-medida">Ver medida</button>
             </div>
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Após a coleta interna, o manipulador deve lavar as mãos ainda enluvadas, retirar as luvas e colocá-las em local apropriado. Se as luvas romperem, devem ser descartadas imediatamente.">
                 <img src="<?=$base?>/assets/icons/litter.png" alt="">
                 <h2>Coleta Interna</h2>
-                <p>Após a coleta interna, o manipulador deve lavar as mãos ainda enluvadas, retirando as luvas e
-                    colocando-as em local apropriado. Em caso de ruptura das luvas, o funcionário deve descarta-las
-                    imediatamente.
-
-                </p>
+                <button class="ver-medida">Ver medida</button>
             </div>
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Os equipamentos de proteção individual devem ser desinfetados diariamente. Se contaminados, devem ser substituídos ou lavados.">
                 <img src="<?=$base?>/assets/icons/wash-your-hands.png" alt="">
                 <h2>Equipamentos de Proteção</h2>
-                <p>Os equipamentos de proteção individual dever ser desinfetados diariamente. Sempre que houver
-                    contaminação com material infectado, devem ser substituídos imediatamente ou lavados.</p>
+                <button class="ver-medida">Ver medida</button>
             </div>
         </div>
 
         <div class="box-medidas">
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Evitar comer ao lidar com resíduos é essencial para prevenir contaminações e promover higiene e segurança.">
                 <img src="<?=$base?>/assets/icons/no-food.png" alt="">
-                <h2>Não se Alimentar </h2>
-                <p>Evitar comer ao lidar com resíduos é essencial para prevenir contaminações. Manter essa separação
-                    entre atividades alimentares e o manuseio de resíduos é fundamental para proteger a saúde e
-                    promover uma cultura de higiene e segurança.</p>
+                <h2>Não se Alimentar</h2>
+                <button class="ver-medida">Ver medida</button>
             </div>
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Ao realizar atividades não relacionadas aos resíduos, como ir ao sanitário, o manipulador deve retirar as luvas e lavar as mãos.">
                 <img src="<?=$base?>/assets/icons/gloves.png" alt="">
                 <h2>Retirar as Luvas</h2>
-                <p>É crucial que, ao exercer atividades não relacionadas aos resíduos, como ir ao sanitário, atender
-                    o telefone ou beber água, o manipulador retire as luvas e lave as mãos. Esse procedimento é
-                    essencial para manter a higiene e prevenir a contaminação cruzada.</p>
+                <button class="ver-medida">Ver medida</button>
             </div>
-            <div class="itens-medidas">
+            <div class="itens-medidas"
+                data-text="Manter o ambiente limpo é essencial para a saúde e o bem-estar, proporcionando um espaço mais agradável e seguro.">
                 <img src="<?=$base?>/assets/icons/household.png" alt="">
                 <h2>Ambiente Limpo</h2>
-                <p>Manter o ambiente limpo é essencial para a saúde e o bem-estar de todos. É uma prática simples,
-                    mas que faz uma grande diferença no dia a dia, proporcionando um espaço mais agradável e seguro
-                    para viver e trabalhar.</p>
+                <button class="ver-medida">Ver medida</button>
             </div>
 
             <span><i class="fa-solid fa-triangle-exclamation"></i>Em caso de acidente com resíduos: Notificar
                 imediatamente o gestor, segurança e medicina do trabalho e encaminhar para o pronto atendimento se
                 necessário.</span>
-
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div id="medidaModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+
+
+<script src="<?=$base?>/assets/js/main.js"></script>
 
 <?php $render('footer')?>
