@@ -55,23 +55,23 @@
     <h2>Conheça nossa estrutura</h2>
 </div>
 <section class="estrutura">
-        <div class="container">
-            <div class="estrutura-content">
-                <div class="estrutura-slider">
+    <div class="container">
+        <div class="estrutura-content">
+            <div class="estrutura-slider">
                 <?php for($i = 1; $i <= 10; $i++): ?>
-                    <div>
-                        <div class="estrutura-slide">
-                            <img src="<?=$base?>/assets/images/galeria<?=$i?>.jpg">
-                            <h3><?=$estruturas[($i - 1)]?></h3>
-                        </div>
+                <div>
+                    <div class="estrutura-slide">
+                        <img src="<?=$base?>/assets/images/galeria<?=$i?>.jpg">
+                        <h3><?=$estruturas[($i - 1)]?></h3>
                     </div>
-                <?php endfor; ?>
                 </div>
-                <span class="prev-estrutura"><i class="fa-solid fa-chevron-left"></i></span>
-                <span class="next-estrutura"><i class="fa-solid fa-chevron-right"></i></span>
+                <?php endfor; ?>
             </div>
+            <span class="prev-estrutura"><i class="fa-solid fa-chevron-left"></i></span>
+            <span class="next-estrutura"><i class="fa-solid fa-chevron-right"></i></span>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
@@ -114,28 +114,28 @@
 
 <!-- Clientes atendindos -->
 <section class="clientes d-flex" id="parceiros">
-        <div class="container d-flex">
-            
+    <div class="container d-flex">
+
         <div class="titulo-segurança-pat d-flex" id="seguranca-patrimonial">
             <span class="span-titulo">Parceiros</span>
             <h2>Quem confia na Mão Colorida?</h2>
         </div>
 
-            <div class="clientes-div d-flex">
-                <span class="prev-cli"><i class="fas fa-chevron-left"></i></span>
-                <div class="clientes-slider">
-                    <?php for($i = 1; $i <= 6; $i++): ?>
-                    <div>
-                        <div class="box">
-                            <img src="<?=$base?>/assets/images/cliente<?=$i?>.png" alt="imagem">
-                        </div>
+        <div class="clientes-div d-flex">
+            <span class="prev-cli"><i class="fas fa-chevron-left"></i></span>
+            <div class="clientes-slider">
+                <?php for($i = 1; $i <= 6; $i++): ?>
+                <div>
+                    <div class="box">
+                        <img src="<?=$base?>/assets/images/cliente<?=$i?>.png" alt="imagem">
                     </div>
-                    <?php endfor; ?>
                 </div>
-                <span class="next-cli"><i class="fas fa-chevron-right"></i></span>
+                <?php endfor; ?>
             </div>
+            <span class="next-cli"><i class="fas fa-chevron-right"></i></span>
         </div>
-    </section>
+    </div>
+</section>
 
 
 

@@ -1,0 +1,307 @@
+/* Melhorias */
+.melhoria {
+    background-color: var(--bg1);
+    padding: 100px 0;
+}
+.melhoria .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.melhoria-img {
+    width: 487px;
+}
+.melhoria-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.melhoria-text {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+}
+.melhoria-text h2 {
+    color: var(--text-color4);
+    font-weight: 600;
+    font-size: 2em;
+}
+.melhoria-text p {
+    color: var(--text-color4);
+}
+.melhoria-text a i,
+.melhoria-text button i {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+.melhoria-text .curriculoBtn {
+    width: 220px;
+    height: 64px;
+    color: #fff;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease 0.3s;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.melhoria-text .curriculoBtn:hover {
+    background-color: var(--hover-red);
+    border: 1px solid var(--hover-red);
+    transition: ease 0.3s;
+}
+.melhoria-text .vagasBtn {
+    font-size: 19px;
+    color: var(--text-color);
+    font-weight: 600;
+    height: 64px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease 0.3s;
+}
+.melhoria-text .vagasBtn:hover {
+    color: var(--hover-red);
+    transition: ease 0.3s;
+}
+
+/* Tratativas nao conforme */
+.tratativas {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.tratativas .container {
+    display: flex;
+    justify-content: space-between;
+}
+.trat-img {
+    width: 486px;
+    display: flex;
+}
+.trat-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.trat-text {
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 25px;
+    padding-right: 100px;
+}
+.trat-text h2 {
+    color: var(--text-color4);
+    font-size: 1.8em;
+}
+.trat-text p {
+    color: var(--text-color4);
+}
+
+/* Metodologia */
+.metodologia-container {
+    width: 100%;
+    background-color: var(--bg1);
+}
+
+.metodologia .metodologia-container .metodologia-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.metodologia .metodologia-container .metodologia-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.metodologia-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.metodologia-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+.metodologia-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.metodologia-text i {
+    color: #1cbe80;
+}
+
+.metodologia-text .metodologia-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.metodologia-img {
+    width: 530px;
+}
+
+.metodologia-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* BANNER FOOTER */
+.bn-contato {
+    width: 100%;
+    min-height: 768px;
+    background-image: url(../images/green-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+.bn-contato .texto {
+    max-width: 680px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.bn-contato .texto .barra {
+    background-color: #fff;
+}
+.barra {
+    width: 40px;
+    height: 1px;
+    display: flex;
+}
+.bn-contato .texto h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "inter", cursive;
+    color: #fff;
+}
+.bn-contato .texto h5,
+.bn-contato .texto p {
+    color: #ffffffbd;
+}
+.bn-contato .texto a {
+    margin-top: 30px;
+}
+.btn-contato {
+    width: 239px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--default-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+.bn-contato .texto {
+    max-width: 680px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-family: "inter", cursive;
+}
+.column {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+    .melhoria-img,
+    .melhoria-text {
+        width: 45%;
+    }
+
+    @media screen and (max-width: 1100px) {
+    }
+
+    /* MOBILE */
+    @media screen and (max-width: 1000px) {
+        .melhoria-img,
+        .melhoria-text {
+            max-width: 600px;
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .melhoria-img img {
+            display: none;
+        }
+        .melhoria-text {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .modal-melhoria .form {
+            width: 90%;
+            padding: 50px 20px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .tratativasoria,
+        .equipe,
+        .timeline {
+            padding: 50px 0;
+        }
+        .tratativas .container {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .trat-text,
+        .estru-text {
+            order: 0;
+            width: 100%;
+            padding: 0;
+        }
+        .trat-img,
+        .estru-img {
+            display: none;
+        }
+    }
+}

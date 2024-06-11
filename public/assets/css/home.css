@@ -33,19 +33,19 @@ body {
 }
 
 /* Nossa estrutura */
-.estrutura{
+.estrutura {
     width: 100%;
     background-color: white;
     padding: 100px 0;
 }
-.estrutura-content{
+.estrutura-content {
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     padding-top: 50px;
 }
-.estrutura-slider{
+.estrutura-slider {
     width: 100%;
 }
 /* .estrutura-slider .estrutura-slide{
@@ -70,17 +70,17 @@ body {
     transform: scale(0.9);
 }
 
-.estrutura-slider .estrutura-slide:hover{
+.estrutura-slider .estrutura-slide:hover {
     scale: 1;
-    transition: ease .3s;
+    transition: ease 0.3s;
 }
-.estrutura-slider .estrutura-slide img{
+.estrutura-slider .estrutura-slide img {
     width: 100%;
     border-radius: 10px;
 }
-.estrutura-slide h3{
-	color: #fff;
-	font-weight: 600;
+.estrutura-slide h3 {
+    color: #fff;
+    font-weight: 600;
     text-align: center;
     font-size: 1.6em;
     margin-top: 5px;
@@ -89,18 +89,18 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.prev-estrutura{
+.prev-estrutura {
     position: absolute;
     left: -50px;
     z-index: 10;
 }
-.next-estrutura{
+.next-estrutura {
     position: absolute;
     right: -50px;
     z-index: 10;
 }
 .prev-estrutura i,
-.next-estrutura i{
+.next-estrutura i {
     color: #fff;
     background-color: var(--default-color);
     font-size: 25px;
@@ -112,9 +112,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-
-
 
 .fale-conosco-btn {
     background-color: var(--default-color);
@@ -232,8 +229,6 @@ body {
     line-height: 1.5;
 }
 
-
-
 /* Nossos objetivos */
 
 .objetivos {
@@ -314,9 +309,6 @@ body {
     padding: 0 10px;
     justify-content: center;
 }
-
-
-
 
 /* cliente */
 .clientes {
@@ -416,9 +408,6 @@ body {
     max-height: 80%;
 }
 
-
-
-
 /* Alerts */
 .flash {
     margin-bottom: 5px;
@@ -437,3 +426,4 @@ body {
     border-radius: 5px;
 }
 
+/* Responsivo */
