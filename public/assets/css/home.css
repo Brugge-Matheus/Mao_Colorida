@@ -4,10 +4,28 @@
 
 @import "variaveis.css";
 
+/* Scroll */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+    background: var(--default-color);
+}
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--default-color);
+}
+
 /* Estilos padrão */
 
 html {
     scroll-behavior: smooth;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .container {

@@ -23,5 +23,3 @@ function validarFormulario() {
         alert("Por favor selecione um arquivo");
     }
 }
-
-// Jquery

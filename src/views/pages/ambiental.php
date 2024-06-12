@@ -120,7 +120,7 @@
     </div>
 </section>
 
-<!-- Modal -->
+<!-- Modal medidas -->
 <div id="medidaModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
