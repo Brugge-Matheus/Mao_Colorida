@@ -180,24 +180,24 @@
 }
 
 
-/* Ponto eletrônico */
+/* plano eletrônico */
 
-.ponto-container {
+.plano-container {
     width: 100%;
     background-color: var(--bg);
 }
 
-.ponto .ponto-container .ponto-conteudo {
+.plano .plano-container .plano-conteudo {
     width: 100%;
     padding: 100px 0;
 }
 
-.ponto .ponto-container .ponto-conteudo .container {
+.plano .plano-container .plano-conteudo .container {
     justify-content: space-between;
     align-items: center;
 }
 
-.ponto-text {
+.plano-text {
     display: flex;
     width: 500px;
     flex-direction: column;
@@ -212,26 +212,26 @@
     letter-spacing: 1pxd;
 }
 
-.ponto-text h3 {
+.plano-text h3 {
     font-size: 31px;
     font-weight: 500;
     color: var(--greenColor);
 }
 
-.ponto-topicos h4 {
+.plano-topicos h4 {
     color: var(--text-color4);
 }
 
-.ponto-text p {
+.plano-text p {
     line-height: 1.2;
     font-family: "Wix Madefor Text";
 }
 
-.ponto-text i {
+.plano-text i {
     color: #1cbe80;
 }
 
-.ponto-text .ponto-topicos {
+.plano-text .plano-topicos {
     flex-direction: row;
     justify-content: space-between;
     margin: 30px;
@@ -247,11 +247,11 @@
     gap: 20px;
 }
 
-.ponto-img {
+.plano-img {
     width: 530px;
 }
 
-.ponto-img img {
+.plano-img img {
     width: 100%;
     border-radius: 20px;
     object-fit: cover;

@@ -69,6 +69,8 @@
     object-fit: cover;
 }
 
+
+
 /* medidas */
 .medidas {
     width: 100%;
@@ -144,6 +146,8 @@
     background-color: var(--text-color4);
 }
 
+
+
 /* Modal styles */
 .modal {
     display: none;
@@ -181,4 +185,157 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+
+/* Plano de gerenciamento */
+
+.ponto-container {
+    width: 100%;
+    background-color: var(--bg);
+}
+
+.ponto .ponto-container .ponto-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.ponto .ponto-container .ponto-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ponto-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.ponto-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+.ponto-topicos h4 {
+    color: var(--text-color4);
+}
+
+.ponto-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.ponto-text i {
+    color: #1cbe80;
+}
+
+.ponto-text .ponto-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ponto-img {
+    width: 530px;
+}
+
+.ponto-img img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+
+/* disposicao */
+.disposicao-container {
+    width: 100%;
+}
+
+.disposicao .disposicao-container .disposicao-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.disposicao .disposicao-container .disposicao-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disposicao-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.disposicao-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+
+.disposicao-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.disposicao-text i {
+    color: #1cbe80;
+}
+
+.disposicao-text .disposicao-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.disposicao-img {
+    width: 530px;
+}
+
+.disposicao-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
