@@ -58,11 +58,12 @@
     <div class="container">
         <div class="estrutura-content">
             <div class="estrutura-slider">
-                <?php for($i = 1; $i <= 8; $i++): ?>
+                <?php for($i = 0; $i < $numItensEstrutura; $i++): ?>
                 <div>
                     <div class="estrutura-slide">
-                        <img src="<?=$base?>/assets/images/estrutura<?=$i?>.jpeg">
-                        <h3><?=$estruturas[($i - 1)]?></h3>
+                        <!-- Ajuste o caminho da imagem de acordo com o nome do arquivo -->
+                        <img src="<?=$base?>/assets/images/estrutura/<?=$itensEstrutura[$i]?>">
+                        <h3><?=$estruturas[$i]?></h3>
                     </div>
                 </div>
                 <?php endfor; ?>
@@ -72,6 +73,8 @@
         </div>
     </div>
 </section>
+
+
 
 
 
@@ -124,10 +127,10 @@
         <div class="clientes-div d-flex">
             <span class="prev-cli"><i class="fas fa-chevron-left"></i></span>
             <div class="clientes-slider">
-                <?php for($i = 1; $i <= 6; $i++): ?>
+                <?php for($i = 0; $i < $numItensMarcas; $i++): ?>
                 <div>
                     <div class="box">
-                        <img src="<?=$base?>/assets/images/cliente<?=$i?>.png" alt="imagem">
+                        <img src="<?=$base?>/assets/images/marcas/<?=$itensMarcas[$i]?>" alt="imagem">
                     </div>
                 </div>
                 <?php endfor; ?>

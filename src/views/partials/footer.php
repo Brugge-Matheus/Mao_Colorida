@@ -1,6 +1,6 @@
 <!-- Flutuantes -->
 <a href="#header" class="btn"></a>
-<a href="tel:+6494461709" class="btn2"><i class="fa-solid fa-phone"></i></a>
+<a href="tel:+30594800" class="btn2"><i class="fa-solid fa-phone"></i></a>
 
 <!-- Footer -->
 <footer>
@@ -11,8 +11,9 @@
                     <img src="<?=$base?>/assets/images/logo-header.png">
                 </a>
             </picture>
-            <a href="">Rua João Lunardelli, 80 - Cidade Industrial,<br> Curitiba - PR, 81460-100</a>
-            <a href=""> (41) 3059-4800</a>
+            <a href="https://maps.app.goo.gl/vN8udS6GHy7YLrgD8">R. Augusto Dias Paredes,68 Boqueirão, <br> Curitiba/PR,
+                Brasil</a>
+            <a href="tel:+30594800"> (41) 3059-4800</a>
         </div>
 
         <div class="footer-main">
@@ -35,8 +36,9 @@
 
             <div class="footer-column">
                 <span>Redes sociais</span>
-                <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i>maocolorida@maocolorida.com.br</a>
+                <a href="tel:+30594800"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
+                <a href="mailto:maocolorida@maocolorida.com.br?subject=Dúvida&body=Olá, gostaria de tirar uma dúvida"><i
+                        class="fa-solid fa-envelope"></i>maocolorida@maocolorida.com.br</a>
                 <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
                         class="fa-brands fa-instagram"></i> @maocolorida</a>
                 <a href="http://linkedin.com.br/company/m%C3%A3o-colorida" target="_blank"><i
