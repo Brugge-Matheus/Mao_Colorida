@@ -328,61 +328,56 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
-}
-
-/* MOBILE */
 @media screen and (max-width: 1000px) {
     .sac .container {
-        justify-content: center;
-        gap: 50px;
+        display: flex; /* Certifique-se de que o container está utilizando flexbox */
+        justify-content: flex-start; /* Centraliza o conteúdo horizontalmente */
+        gap: 20px; /* Corrigido o valor do gap para espaçamento uniforme */
+        transform: translateX(30px); /* Move o container 30 pixels para a esquerda */
     }
     .sac-div {
-        display: none;
+        display: none; /* Oculta o elemento com a classe .sac-div */
     }
     .sac-infos {
-        width: 100%;
+        width: 100%; /* Define a largura do elemento com a classe .sac-infos para 100% */
     }
-
     .contato .container {
-        gap: 50px;
+        gap: 50px; /* Define um espaçamento de 50 pixels entre os itens do container */
     }
     .contato-info,
     .form-div {
-        max-width: 600px;
-        width: 100%;
-        margin: auto;
+        max-width: 350px; /* Define a largura máxima dos elementos para 350 pixels */
+        width: 100%; /* Define a largura dos elementos para 100% */
+        margin: auto; /* Centraliza os elementos horizontalmente */
     }
 }
 
 @media screen and (max-width: 800px) {
     .contato .container {
-        flex-direction: column;
-        gap: 40px;
+        flex-direction: column; /* Altera a direção do flex container para coluna */
+        gap: 40px; /* Define um espaçamento de 40 pixels entre os itens do container */
     }
     .contato-info,
     .contato-form {
-        width: 580px;
+        width: 100%; /* Define a largura dos elementos para 100% */
     }
 }
 
 @media screen and (max-width: 600px) {
     .endereco-titulo .botoes-mapas {
-        flex-direction: column;
+        flex-direction: column; /* Altera a direção do flex container para coluna */
     }
     .endereco-titulo .botoes-mapas a {
-        width: 100%;
-        justify-content: center;
+        width: 100%; /* Define a largura dos elementos para 100% */
+        justify-content: center; /* Centraliza o conteúdo dos elementos */
     }
-
     .contato-info,
     .contato-form {
-        width: 100%;
+        width: 100%; /* Define a largura dos elementos para 100% */
     }
 }
 
-@media screen and (max-width: 400px) {
-}
-
-@media screen and (max-width: 375px) {
+/* Adicionando overflow-x: hidden ao body ou html */
+body, html {
+    overflow-x: hidden; /* Oculta qualquer conteúdo que ultrapasse a largura da viewport */
 }

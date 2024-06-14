@@ -6,15 +6,15 @@
         <div class="menu-item">
             <a href="#nossa-historia">Quem somos</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#nossa-estrutura">Nossa estrutura</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#objetivos">Missão e valores</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#parceiros">Parceiros</a>
         </div>

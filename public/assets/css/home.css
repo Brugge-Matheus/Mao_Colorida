@@ -4,28 +4,10 @@
 
 @import "variaveis.css";
 
-/* Scroll */
-*::-webkit-scrollbar {
-    width: 12px;
-}
-*::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-*::-webkit-scrollbar-thumb {
-    background: var(--default-color);
-}
-*::-webkit-scrollbar-thumb:hover {
-    background: var(--default-color);
-}
-
 /* Estilos padrão */
 
 html {
     scroll-behavior: smooth;
-}
-
-.column {
-    flex-direction: column;
 }
 
 .container {
@@ -51,19 +33,19 @@ body {
 }
 
 /* Nossa estrutura */
-.estrutura {
+.estrutura{
     width: 100%;
     background-color: white;
     padding: 100px 0;
 }
-.estrutura-content {
+.estrutura-content{
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     padding-top: 50px;
 }
-.estrutura-slider {
+.estrutura-slider{
     width: 100%;
 }
 /* .estrutura-slider .estrutura-slide{
@@ -88,17 +70,17 @@ body {
     transform: scale(0.9);
 }
 
-.estrutura-slider .estrutura-slide:hover {
+.estrutura-slider .estrutura-slide:hover{
     scale: 1;
-    transition: ease 0.3s;
+    transition: ease .3s;
 }
-.estrutura-slider .estrutura-slide img {
+.estrutura-slider .estrutura-slide img{
     width: 100%;
     border-radius: 10px;
 }
-.estrutura-slide h3 {
-    color: #fff;
-    font-weight: 600;
+.estrutura-slide h3{
+	color: #fff;
+	font-weight: 600;
     text-align: center;
     font-size: 1.6em;
     margin-top: 5px;
@@ -107,18 +89,18 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.prev-estrutura {
+.prev-estrutura{
     position: absolute;
     left: -50px;
     z-index: 10;
 }
-.next-estrutura {
+.next-estrutura{
     position: absolute;
     right: -50px;
     z-index: 10;
 }
 .prev-estrutura i,
-.next-estrutura i {
+.next-estrutura i{
     color: #fff;
     background-color: var(--default-color);
     font-size: 25px;
@@ -130,6 +112,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .fale-conosco-btn {
     background-color: var(--default-color);
@@ -152,55 +137,7 @@ body {
     color: white;
 }
 
-/* Menu */
-/* .menu {
-    width: 100%;
-    height: 48px;
-    background-color: var(--default-color);
-    align-items: center;
-    display: flex;
-}
 
-.menu nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    height: 100%;
-}
-
-.menu-item {
-    position: relative;
-    z-index: 10;
-    height: 100%;
-    align-items: center;
-    display: flex;
-}
-
-.menu-item a {
-    color: #fff;
-    text-decoration: none;
-} */
-
-/* .menu .menu-drop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 200px;
-    height: 100%;
-    background-color: var(--default-hover);
-}
-
-.menu-drop {
-    width: 100%;
-    display: flex;
-    padding: 0 10px;
-}
-
-.menu-drop a {
-    text-decoration: none;
-    color: white;
-} */
 
 /* Sobre nós */
 
@@ -246,6 +183,8 @@ body {
 .hist-text p {
     line-height: 1.5;
 }
+
+
 
 /* Nossos objetivos */
 
@@ -327,6 +266,9 @@ body {
     padding: 0 10px;
     justify-content: center;
 }
+
+
+
 
 /* cliente */
 .clientes {
@@ -426,6 +368,9 @@ body {
     max-height: 80%;
 }
 
+
+
+
 /* Alerts */
 .flash {
     margin-bottom: 5px;
@@ -444,4 +389,174 @@ body {
     border-radius: 5px;
 }
 
-/* Responsivo */
+/* Estilos Responsivos para iPhone XR */
+@media screen and (max-width: 828px) { /* Largura da tela do iPhone XR em pixels */
+
+    .container {
+        width: 100%;
+        padding: 0 6px; /* Preenchimento para evitar que o conteúdo toque nas bordas */
+        margin: 0 auto;
+    }
+
+    .d-flex {
+        flex-direction: column; /* Flex-direction para coluna em telas menores */
+        align-items: center; /* Centralizar itens */
+    }
+
+    .estrutura-content {
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+        text-align: center; /* Centralizar texto */
+        padding-top: 20px; /* Ajuste de preenchimento superior */
+    }
+
+    .estrutura-slider .estrutura-slide {
+        max-width: 90%; /* Ajuste de largura para evitar rolagem lateral */
+    }
+
+    .nossa-historia {
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+        text-align: center; /* Centralizar texto */
+        padding: 50px 0; /* Ajuste de preenchimento */
+    }
+    
+    .container-historia {
+        flex-direction: column; /* Coluna para colocar imagem em cima e texto embaixo */
+        align-items: center; /* Centralizar itens */
+    }
+    
+    .hist-img {
+        width: 100%; /* Ajuste de largura */
+        margin-bottom: 20px; /* Espaçamento entre imagem e texto */
+    }
+    
+    .hist-img img {
+        width: 100%; /* Garantir que a imagem ocupe toda a largura do contêiner */
+        border-radius: 8px;
+    }
+    
+    .hist-text {
+        width: 100%; /* Ajuste de largura */
+        padding: 0 15px; /* Preenchimento para evitar que o texto toque as bordas */
+    }
+
+    .objetivos {
+        padding: 110px 6px; /* Ajuste de preenchimento */
+        text-align: center; /* Centralizar texto */
+    }
+
+    .objetivos-titulo h2, .itens-objetivos h2, .itens-objetivos p {
+        text-align: center; /* Centralizar texto */
+    }
+
+    .box-objetivos {
+        flex-direction: column; /* Flex-direction para coluna */
+        gap: 50px; /* Ajuste de espaçamento */
+    }
+
+    .itens-objetivos {
+        width: 100%; /* Ajuste de largura */
+    }
+
+    .clientes {
+        padding: 50px 15px; /* Ajuste de preenchimento */
+        text-align: center; /* Centralizar texto */
+    }
+
+    .clientes .titulo {
+        width: 100%; /* Ajuste de largura */
+        padding: 0;
+    }
+
+    .clientes-content .box {
+        max-width: 100%; /* Ajuste de largura */
+        padding: 0 15px; /* Ajuste de preenchimento */
+    }
+
+    .flash, .correct {
+        margin: 5px 15px; /* Ajuste de margem */
+    }
+}
+
+/* Estilos padrão das setas */
+.prev-estrutura,
+.next-estrutura,
+.prev-cli,
+.next-cli {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    background-color: var(--default-color);
+    font-size: 25px;
+    cursor: pointer;
+    width: 26px;
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajuste das setas para telas menores */
+@media screen and (max-width: 1100px) {
+    .prev-estrutura,
+    .next-estrutura,
+    .prev-cli,
+    .next-cli {
+        font-size: 20px;
+        width: 20px;
+        height: 40px;
+    }
+
+    .prev-estrutura {
+        left: -30px;
+    }
+
+    .next-estrutura {
+        right: -30px;
+    }
+
+    .prev-cli {
+        left: -30px;
+    }
+
+    .next-cli {
+        right: -30px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .prev-estrutura,
+    .next-estrutura,
+    .prev-cli,
+    .next-cli {
+        font-size: 18px;
+        width: 18px;
+        height: 36px;
+    }
+
+    .prev-estrutura {
+        left: -20px;
+    }
+
+    .next-estrutura {
+        right: -20px;
+    }
+
+    .prev-cli {
+        left: -20px;
+    }
+
+    .next-cli {
+        right: -20px;
+    }
+}
+
+/* Desaparecer as setas em dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .prev-estrutura,
+    .next-estrutura,
+    .prev-cli,
+    .next-cli {
+        display: none !important;
+    }
+}
