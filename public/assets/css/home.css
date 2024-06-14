@@ -32,20 +32,34 @@ body {
     background-color: white;
 }
 
+/* Scroll */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+    background: var(--default-color);
+}
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--default-color);
+}
+
 /* Nossa estrutura */
-.estrutura{
+.estrutura {
     width: 100%;
     background-color: white;
     padding: 100px 0;
 }
-.estrutura-content{
+.estrutura-content {
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     padding-top: 50px;
 }
-.estrutura-slider{
+.estrutura-slider {
     width: 100%;
 }
 /* .estrutura-slider .estrutura-slide{
@@ -70,17 +84,17 @@ body {
     transform: scale(0.9);
 }
 
-.estrutura-slider .estrutura-slide:hover{
+.estrutura-slider .estrutura-slide:hover {
     scale: 1;
-    transition: ease .3s;
+    transition: ease 0.3s;
 }
-.estrutura-slider .estrutura-slide img{
+.estrutura-slider .estrutura-slide img {
     width: 100%;
     border-radius: 10px;
 }
-.estrutura-slide h3{
-	color: #fff;
-	font-weight: 600;
+.estrutura-slide h3 {
+    color: #fff;
+    font-weight: 600;
     text-align: center;
     font-size: 1.6em;
     margin-top: 5px;
@@ -89,18 +103,18 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.prev-estrutura{
+.prev-estrutura {
     position: absolute;
     left: -50px;
     z-index: 10;
 }
-.next-estrutura{
+.next-estrutura {
     position: absolute;
     right: -50px;
     z-index: 10;
 }
 .prev-estrutura i,
-.next-estrutura i{
+.next-estrutura i {
     color: #fff;
     background-color: var(--default-color);
     font-size: 25px;
@@ -112,9 +126,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-
-
 
 .fale-conosco-btn {
     background-color: var(--default-color);
@@ -136,7 +147,6 @@ body {
     margin-right: 10px;
     color: white;
 }
-
 
 /* Sobre nós */
 
@@ -182,8 +192,6 @@ body {
 .hist-text p {
     line-height: 1.5;
 }
-
-
 
 /* Nossos objetivos */
 
@@ -265,9 +273,6 @@ body {
     padding: 0 10px;
     justify-content: center;
 }
-
-
-
 
 /* cliente */
 .clientes {
@@ -367,9 +372,6 @@ body {
     max-height: 80%;
 }
 
-
-
-
 /* Alerts */
 .flash {
     margin-bottom: 5px;
@@ -389,7 +391,8 @@ body {
 }
 
 /* Estilos Responsivos para iPhone XR */
-@media screen and (max-width: 828px) { /* Largura da tela do iPhone XR em pixels */
+@media screen and (max-width: 828px) {
+    /* Largura da tela do iPhone XR em pixels */
 
     .container {
         width: 100%;
@@ -417,22 +420,22 @@ body {
         text-align: center; /* Centralizar texto */
         padding: 50px 0; /* Ajuste de preenchimento */
     }
-    
+
     .container-historia {
         flex-direction: column; /* Coluna para colocar imagem em cima e texto embaixo */
         align-items: center; /* Centralizar itens */
     }
-    
+
     .hist-img {
         width: 100%; /* Ajuste de largura */
         margin-bottom: 20px; /* Espaçamento entre imagem e texto */
     }
-    
+
     .hist-img img {
         width: 100%; /* Garantir que a imagem ocupe toda a largura do contêiner */
         border-radius: 8px;
     }
-    
+
     .hist-text {
         width: 100%; /* Ajuste de largura */
         padding: 0 15px; /* Preenchimento para evitar que o texto toque as bordas */
@@ -443,7 +446,9 @@ body {
         text-align: center; /* Centralizar texto */
     }
 
-    .objetivos-titulo h2, .itens-objetivos h2, .itens-objetivos p {
+    .objetivos-titulo h2,
+    .itens-objetivos h2,
+    .itens-objetivos p {
         text-align: center; /* Centralizar texto */
     }
 
@@ -471,7 +476,8 @@ body {
         padding: 0 15px; /* Ajuste de preenchimento */
     }
 
-    .flash, .correct {
+    .flash,
+    .correct {
         margin: 5px 15px; /* Ajuste de margem */
     }
 }
