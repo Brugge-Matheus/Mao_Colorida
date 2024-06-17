@@ -6,43 +6,27 @@ use \src\models\Contato;
 use \src\models\Curriculo;
 
 class ContatoController extends Controller {
-    
-   //  public function contato() {
-   //      $this->render('/contato');
-        
-   //  }
-
+   
    public function contato() {
-    $flash = ''; 
-    $correct = '';
+      $flash = filter_input(INPUT_GET, 'flash', FILTER_SANITIZE_STRING);
+      $correct = filter_input(INPUT_GET, 'correct', FILTER_SANITIZE_STRING);
 
-    if(!empty($_SESSION['flash'])) {
-        $flash = $_SESSION['flash'];
-        $_SESSION['flash'] = '';
-    }
+      $this->render('contato', [
+         'flash' => $flash,
+         'correct' => $correct
+      ]);
+   }
 
-    if(!empty($_SESSION['correct'])) {
-        $correct = $_SESSION['correct'];
-        $_SESSION['correct'] = '';
-    }
-
-    $this->render('contato', [
-        'flash' => $flash,
-        'correct' => $correct
-    ]);
-}
-
-    public function contatoAction() {
+   public function contatoAction() {
       $name = filter_input(INPUT_POST, 'nome');
       $phone = filter_input(INPUT_POST, 'telefone');
       $email = filter_input(INPUT_POST, 'email');
       $body = filter_input(INPUT_POST, 'body');
 
-    
-      if($name && $email && $phone) {
+      if ($name && $email && $phone) {
          $data = Contato::select()->where('email', $email)->execute();
 
-         if(count($data) === 0) {
+         if (count($data) === 0) {
             // insert
             Contato::insert([
                'name' => $name,
@@ -51,13 +35,11 @@ class ContatoController extends Controller {
                'body' => $body
             ])->execute();
 
-            $_SESSION['correct'] = 'Campos enviado com sucesso';
-            $this->redirect('/contato#sac-contato');
-         } 
-
-      } 
-      $_SESSION['flash'] = 'Campos não preenchidos corretamente!';
-      $this->redirect('/contato#sac-contato');
+            $this->redirect('/contato?correct=Campos+enviados+com+sucesso#sac-contato');
+            return;
+         }
+      }
+      $this->redirect('/contato?flash=Campos+n%C3%A3o+preenchidos+corretamente!#sac-contato');
    }
 
    public function trabalheAction() {
@@ -66,11 +48,10 @@ class ContatoController extends Controller {
       $email = filter_input(INPUT_POST, 'email');
       $curriculo = filter_input(INPUT_POST, 'curriculo');
 
-    
-      if($name && $email && $phone) {
+      if ($name && $email && $phone) {
          $data = Curriculo::select()->where('email', $email)->execute();
 
-         if(count($data) === 0) {
+         if (count($data) === 0) {
             // insert
             Curriculo::insert([
                'name' => $name,
@@ -79,13 +60,10 @@ class ContatoController extends Controller {
                'curriculo' => $curriculo
             ])->execute();
 
-            $_SESSION['correct'] = 'Campos enviados com sucesso';
-            $this->redirect('/contato#sac-contato');
-         } 
-
+            $this->redirect('/contato?correct=Campos+enviados+com+sucesso#sac-contato');
+            return;
+         }
       }
-      $_SESSION['flash'] = 'Campos não preenchidos corretamente!';
-      $this->redirect('/contato#sac-contato');
+      $this->redirect('/contato?flash=Campos+n%C3%A3o+preenchidos+corretamente!#sac-contato');
    }
-
 }

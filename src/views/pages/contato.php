@@ -28,23 +28,18 @@
             <div class="contato-info">
                 <h2>Fale conosco</h2>
                 <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i>
-                    maocolorida@maocolorida.com.br</a>
+                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i> maocolorida@maocolorida.com.br</a>
                 <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
                         class="fa-brands fa-instagram"></i> @maocolorida</a>
                 <a href="http://linkedin.com.br/company/m%C3%A3o-colorida" target="_blank"><i
                         class="fa-brands fa-linkedin"></i> Mão Colorida</a>
             </div>
             <div class="form-div d-flex column">
-                <?php if(!empty($flash)):?>
-
-                <div class="flash"><?=$flash?></div>
-
-                <?php elseif((!empty($correct))):?>
-
-                <div class="correct"><?=$correct?></div>
-
-                <?php endif;?>
+                <?php if (!empty($flash)): ?>
+                <div class="flash"><?= htmlspecialchars($flash) ?></div>
+                <?php elseif (!empty($correct)): ?>
+                <div class="correct"><?= htmlspecialchars($correct) ?></div>
+                <?php endif; ?>
                 <div class="botoes-form">
                     <button class="sac-b ativo" id="btn-contato" data-target="sac-f">Contato</button>
                     <button class="financeiro-b" id="btn-trabalhe" data-target="financeiro-f">Indicações</button>
@@ -55,7 +50,6 @@
                         <input type="text" class="phone_br" name="telefone" placeholder="Telefone">
                         <input type="text" name="email" placeholder="E-mail">
                         <textarea name="body" placeholder="Digite seu texto..." rows="7" cols="50"></textarea>
-                        <!-- <button id="enviar-sac">Enviar</button> -->
                         <input type="submit" value="Enviar" id="enviar-financeiro">
                     </div>
                 </form>
@@ -68,13 +62,14 @@
                             Anexar currículo <i class="fa-solid fa-paperclip"></i>
                         </label>
                         <input id="file-upload" type="file" name="curriculo" style="display: none;">
-                        <!-- <button id="enviar-financeiro">Enviar</button> -->
                         <input type="submit" value="Enviar" id="enviar-financeiro">
                     </div>
                 </form>
             </div>
         </div>
     </section>
+
+
 
     <section class="endereco">
         <div class="container">
