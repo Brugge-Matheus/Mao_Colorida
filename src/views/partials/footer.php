@@ -1,6 +1,6 @@
 <!-- Flutuantes -->
 <a href="#header" class="btn"></a>
-<a href="tel:+30594800" class="btn2"><i class="fa-solid fa-phone"></i></a>
+<a href="tel:+31227550" class="btn2"><i class="fa-solid fa-phone"></i></a>
 
 <!-- Footer -->
 <footer>
@@ -13,7 +13,7 @@
             </picture>
             <a href="https://maps.app.goo.gl/vN8udS6GHy7YLrgD8">R. Augusto Dias Paredes,68 Boqueirão, <br> Curitiba/PR,
                 Brasil</a>
-            <a href="tel:+30594800"> (41) 3059-4800</a>
+            <a href="tel:31227550 "> +55 41 3122.7550 </a>
         </div>
 
         <div class="footer-main">
@@ -30,13 +30,13 @@
 
             <div class="footer-column">
                 <span>Politícas</span>
-                <a href="produtos/marcas">Termos de uso</a>
-                <a href="segmentos">LGPD</a>
+                <a href="https://drive.google.com/file/d/1pTM3rqpx2Dkc3Gf_-8fqvAC2zqE72bE9/view?usp=sharing" target="_blank">Termos de uso</a>
+                <a href="https://drive.google.com/file/d/1Dw-gnThAosqbO2TeoCHIFHBy4a9nEjUQ/view?usp=sharing" target="_blank">LGPD</a>
             </div>
 
             <div class="footer-column">
                 <span>Redes sociais</span>
-                <a href="tel:+30594800"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
+                <a href="tel:+31227550"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
                 <a href="mailto:maocolorida@maocolorida.com.br?subject=Dúvida&body=Olá, gostaria de tirar uma dúvida"><i
                         class="fa-solid fa-envelope"></i>maocolorida@maocolorida.com.br</a>
                 <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
@@ -48,3 +48,14 @@
         </div>
     </div>
 </footer>
+
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="<?=$base?>/assets/js/main.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+<!-- Slider -->
+<script src="<?=$base?>/assets/js/slider.js"></script>
+<script src="<?=$base?>/assets/js/functions.js"></script>

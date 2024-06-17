@@ -5,19 +5,17 @@
         <div class="menu-item">
             <a href="#segurança-do-trabalho">Segurança do trabalho</a>
         </div>
-        |
+        
+        <div class="menu-item">
+            <a href="#epis">Epi's</a>
+        </div>
+
+        <div class="menu-item">
+            <a href="#sesmt">Como evitar acidentes?</a>
+        </div>
         <div class="menu-item">
             <a href="#seguranca-patrimonial">Segurança Patrimonial</a>
         </div>
-        <!-- <div class="menu-item">
-            <a href="#nosso-foco">Nossos esforços</a>
-        </div>
-        <div class="menu-item">
-            <a href="#objetivos">Missão e valores</a>
-        </div>
-        <div class="menu-item">
-            <a href="#medidas">Medidas</a>
-        </div> -->
     </nav>
 </div>
 
@@ -52,6 +50,66 @@
             </div>
         </div>
 </section>
+
+
+
+<!-- Epis -->
+<section class="epis d-flex" id="epis">
+    <div class="epis-container d-flex">
+        <div class="epis-conteudo d-flex">
+            <div class="container d-flex">
+            <div class="epis-img d-flex">
+                    <img src="<?=$base?>/assets/images/epis.jpeg" alt="imagem">
+                </div>
+                <div class="epis-text d-flex">
+                    <h3> RESPONSABILIDADE COM EPI'S</h3>
+                    <p>
+                        Os Equipamentos de Proteção Individual (EPIs) são essenciais para proteger os trabalhadores contra riscos à segurança e saúde no trabalho. O empregador tem o dever de fornecer, orientar e treinar os funcionários sobre o uso adequado dos EPIs. 
+                        <br>
+                        <br>
+                        Por outro lado, cabe aos funcionários utilizar os equipamentos conforme as orientações recebidas
+
+                    </p>
+                    <div class="epis-topicos d-flex">
+                        <div class="topico1 d-flex">
+                            <h2>Responsabilidades do empregador (Empresa):</h2>
+                            <span><i class="fa-solid fa-star"></i> Fornecer EPIs adequados conforme os riscos do trabalho.</span>
+                            <span><i class="fa-solid fa-star"></i> Orientar e treinar os funcionários sobre o uso correto dos EPIs.</span>
+                        </div>
+                        <div class="topico2 d-flex">
+                            <h2>Responsabilidades do empregado (Funcionário):</h2>
+                            <span><i class="fa-solid fa-star"></i> Utilizar os EPIs conforme as orientações recebidas.</span>
+                            <span><i class="fa-solid fa-star"></i> Conservar os EPIs em boas condições e seguir as diretrizes da empresa. </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+
+
+<!-- sesmt -->
+<section class="sesmt" id="sesmt">
+    <div class="container">
+        <div class="sesmt-img">
+            <img src="<?=$base?>\assets\images\sesmt.png">
+        </div>
+        <div class="sesmt-text">
+            <h2>Como evitar acidentes de trabalho?</h2>
+            <p>
+                Para garantir a segurança no trabalho e cumprir as normas estabelecidas pela empresa, é essencial seguir algumas práticas fundamentais. Primeiramente, é necessário utilizar corretamente os Equipamentos de Proteção Individual (EPIs) destinados à função. Cada funcionário deve evitar desenvolver atividades para as quais não está qualificado e informar imediatamente qualquer anormalidade que possa gerar acidentes. 
+                <br><br>
+                Além disso, deve-se usar os EPIs de maneira adequada sempre que necessário, evitar atitudes inseguras e improvisações, bem como identificar e tratar prontamente os riscos presentes no ambiente de trabalho.
+                <br><br> 
+                Caso tenha ficado com alguma dúvida, clique no botão abaixo e baixe o PDF com todas as instruções detalhadas.
+            </p>
+            <a href="https://drive.google.com/file/d/1wL4kmuTTFWe4Wd8dvxqAQSw9yhjNtswX/view?usp=sharing"
+                class="curriculoBtn" target="_blank">Baixar PDF <i class="fa-solid fa-download"></i></a>
+        </div>
+    </div>
+</section>
+
 
 <!-- Segurança Patrimonial -->
 <div class="titulo-segurança-pat d-flex" id="seguranca-patrimonial">

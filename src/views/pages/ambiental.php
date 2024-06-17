@@ -5,15 +5,15 @@
         <div class="menu-item">
             <a href="#nosso-foco">Sustentabilidade em foco</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#medidas">Nossas medidas</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#plano">Plano de gerenciamento</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#disposicao">Disposição de resíduos</a>
         </div>

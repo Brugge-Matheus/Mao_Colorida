@@ -75,11 +75,6 @@
 </section>
 
 
-
-
-
-
-
 <!-- nossos objetivos -->
 <section class="objetivos" id="objetivos">
     <div class="container">
@@ -140,76 +135,4 @@
     </div>
 </section>
 
-
-
-<!-- Segurança Do Trabalho -->
-<!-- <section class="processos d-flex">
-    <div class="titulo-processos d-flex">
-        <span class="span-titulo">Trabalho Seguro</span>
-        <h2>Segurança do Trabalho</h2>
-    </div>
-    <div class="processos-container d-flex">
-        <div class="processos-conteudo d-flex">
-            <div class="container d-flex">
-                <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/sobre-nos-img.png" alt="imagem">
-                </div>
-                <div class="processos-text d-flex">
-                    <span class="span-titulo">Compromisso</span>
-                    <h3>PRIORIZANDO A SEGURANÇA</h3>
-                    <p>
-                        A Segurança do Trabalho consiste em medidas preventivas para evitar acidentes e proteger a
-                        saúde dos colaboradores. Os acidentes no trabalho têm causas como stress, fadiga, falta de
-                        atenção e negligência.
-                        <br>
-                        <br>
-                        Em caso de incidente, é importante procurar imediatamente o técnico de segurança do
-                        trabalho. Se não estiver disponível, o gestor deve encaminhar o colaborador para atendimento
-                        médico e relatar o ocorrido ao RH e aos responsáveis. A Comunicação de Acidente de Trabalho
-                        (CAT) deve ser aberta dentro de 24 horas.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-</section>
-
-
-<!-- Segurança Do Trabalho -->
-<!-- <section class="processos d-flex">
-    <div class="titulo-processos d-flex">
-        <span class="span-titulo">Trabalho Seguro</span>
-        <h2>Segurança do Trabalho</h2>
-    </div>
-    <div class="processos-container d-flex">
-        <div class="processos-conteudo d-flex">
-            <div class="container d-flex">
-                <div class="processos-text d-flex">
-                    <span class="span-titulo">Compromisso</span>
-                    <h3>PRIORIZANDO A SEGURANÇA</h3>
-                    <p>
-                        A Segurança do Trabalho consiste em medidas preventivas para evitar acidentes e proteger a
-                        saúde dos colaboradores. Os acidentes no trabalho têm causas como stress, fadiga, falta de
-                        atenção e negligência.
-                        <br>
-                        <br>
-                        Em caso de incidente, é importante procurar imediatamente o técnico de segurança do
-                        trabalho. Se não estiver disponível, o gestor deve encaminhar o colaborador para atendimento
-                        médico e relatar o ocorrido ao RH e aos responsáveis. A Comunicação de Acidente de Trabalho
-                        (CAT) deve ser aberta dentro de 24 horas.
-
-                    </p>
-                </div>
-                <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/sobre-nos-img.png" alt="imagem">
-                </div>
-            </div>
-        </div>
-</section>  -->
-
-
-
-
-<script src="<?=$base?>/assets/js/slider.js"></script>
-<script src="<?=$base?>/assets/js/functions.js"></script>
 <?=$render('footer')?>

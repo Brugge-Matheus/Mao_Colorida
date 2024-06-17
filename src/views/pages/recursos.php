@@ -3,23 +3,18 @@
 <!-- Menu -->
 <div class="menu" id="menu">
     <nav class="container">
-        <!-- <div class="menu-drop">
-            <i class="fa-solid fa-bars"></i>
-            <a href="#">Exemplo</a>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div> -->
         <div class="menu-item">
             <a href="#pagamentos">Pagamentos</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#beneficios">Benefícios</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#ponto">Ponto eletrônico</a>
         </div>
-        |
+        
         <div class="menu-item">
             <a href="#canais">Canais de denúncia</a>
         </div>
