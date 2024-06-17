@@ -198,6 +198,7 @@
     margin: auto;
     align-items: center;
     text-align: center;
+    justify-content: center;
     gap: 20px;
 }
 .bn-contato .texto .barra {

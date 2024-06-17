@@ -3,25 +3,25 @@
 <div class="menu" id="menu">
     <nav class="container">
         <div class="menu-item">
-            <a href="#nossa-historia">Quem somos</a>
+            <a href="#melhoria">Cartão de melhoria</a>
         </div>
         
         <div class="menu-item">
-            <a href="#nossa-estrutura">Nossa estrutura</a>
+            <a href="#tratativas">Tratativas</a>
         </div>
         
         <div class="menu-item">
-            <a href="#objetivos">Missão e valores</a>
+            <a href="#metodologia">Metodologia</a>
         </div>
         
         <div class="menu-item">
-            <a href="#parceiros">Parceiros</a>
+            <a href="#bn-contato">Instruções</a>
         </div>
     </nav>
 </div>
 
 <!-- Melhorias -->
-<section class="melhoria">
+<section class="melhoria" id="melhoria">
     <div class="container">
         <div class="melhoria-img">
             <img src="<?=$base?>\assets\images\cartao_de_melhoria.jpg">
@@ -41,14 +41,14 @@
             <a href="https://drive.google.com/file/d/1pQc7HF5slhqlCLOxq9WMLlXrGL65BcUt/view?usp=drive_link"
                 class="curriculoBtn" target="_blank">Como preencher? <i class="fa-solid fa-pen"></i></a>
             <a href="https://app.smartsheet.com/b/form/0478814e620a4e1eb2fbff2ad4275e31" target="_blank"
-                class="vagasBtn" target="_blank">Abrir cartão <i class="fa-solid fa-clipboard"></i></a>
+                class="vagasBtn" target="_blank">Preencher cartão <i class="fa-solid fa-clipboard"></i></a>
         </div>
     </div>
 </section>
 
 
 <!-- Tratativas -->
-<section class="tratativas">
+<section class="tratativas" id="tratativas">
     <div class="container">
 
         <div class="trat-text">
@@ -75,7 +75,7 @@
 
 
 <!-- metodologia -->
-<section class="metodologia d-flex" id="nosso-foco">
+<section class="metodologia d-flex" id="metodologia">
     <div class="metodologia-container d-flex">
         <div class="metodologia-conteudo d-flex">
             <div class="container d-flex">
@@ -113,8 +113,9 @@
 
 
 <!-- Procedimentos e instruções de trabalho -->
-<section class="bn-contato d-flex">
+<section class="bn-contato d-flex" id="bn-contato">
     <div class="texto d-flex column">
+        <span class="barra"></span>
         <h5>Integração</h5>
         <span class="barra"></span>
         <h2 class="branco">Procedimentos e instruções de trabalho</h2>

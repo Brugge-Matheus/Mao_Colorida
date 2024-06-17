@@ -70,6 +70,12 @@ header {
     text-decoration: none;
 }
 
+.menu-item a:hover {
+    transform: scale(1.02);
+    color: white;
+    transition: 0.1s;
+}
+
 /* Footer */
 footer {
     width: 100%;

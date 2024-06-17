@@ -12,7 +12,7 @@
             <span class="sac-div"></span>
             <div class="sac-infos">
                 <h3>Mão Colorida Ltda.</h3>
-                <a href="tel:+6494461709"><i class="fa-solid fa-phone"></i>+55 (41)3122.7550</a>
+                <a href="tel:+31227550"><i class="fa-solid fa-phone"></i>+55 (41) 3122-7550</a>
                 <a href="mailto:maocolorida@maocolorida.com.br?subject=Dúvida&body=Olá, gostaria de tirar uma dúvida"><i
                         class="fa-solid fa-envelope"></i>
                     maocolorida@maocolorida.com.br</a>
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="contato-info">
                 <h2>Fale conosco</h2>
-                <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41)3122.7550</a>
+                <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
                 <a href="" target="_blank"><i class="fa-solid fa-envelope"></i>
                     maocolorida@maocolorida.com.br</a>
                 <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
