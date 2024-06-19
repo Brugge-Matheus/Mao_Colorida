@@ -32,18 +32,42 @@ body {
     background-color: white;
 }
 
-/* Scroll */
-*::-webkit-scrollbar {
-    width: 12px;
+/* Menu home */
+.menu-home {
+    width: 100%;
+    height: 60px;
+    background-color: var(--default-color);
+    align-items: center;
+    display: flex;
 }
-*::-webkit-scrollbar-track {
-    background: #f1f1f1;
+
+.menu-home nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 100%;
 }
-*::-webkit-scrollbar-thumb {
-    background: var(--default-color);
+
+.menu-home-item {
+    position: relative;
+    z-index: 10;
+    height: 10%;
+    align-items: center;
+    display: flex;
 }
-*::-webkit-scrollbar-thumb:hover {
-    background: var(--default-color);
+
+.menu-home-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* responsivo Menu home */
+@media (max-width: 828px) {
+    .menu-home {
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+    }
 }
 
 /* Nossa estrutura */

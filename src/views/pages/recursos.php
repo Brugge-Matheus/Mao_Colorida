@@ -1,21 +1,21 @@
 <?php $render('header')?>
 
-<!-- Menu -->
-<div class="menu" id="menu">
+<!-- menu-recursos -->
+<div class="menu-recursos" id="menu-recursos">
     <nav class="container">
-        <div class="menu-item">
+        <div class="menu-recursos-item">
             <a href="#pagamentos">Pagamentos</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-recursos-item">
             <a href="#beneficios">Benefícios</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-recursos-item">
             <a href="#ponto">Ponto eletrônico</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-recursos-item">
             <a href="#canais">Canais de denúncia</a>
         </div>
 </div>

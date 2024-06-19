@@ -1,20 +1,20 @@
 <?php $render('header')?>
 
-<div class="menu" id="menu">
+<div class="menu-qualidade" id="menu-qualidade">
     <nav class="container">
-        <div class="menu-item">
+        <div class="menu-qualidade-item">
             <a href="#melhoria">Cartão de melhoria</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-qualidade-item">
             <a href="#tratativas">Tratativas</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-qualidade-item">
             <a href="#metodologia">Metodologia</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-qualidade-item">
             <a href="#bn-contato">Instruções</a>
         </div>
     </nav>

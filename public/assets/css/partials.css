@@ -39,43 +39,6 @@ header {
     transition: 0.5s ease;
 }
 
-/* Menu */
-.menu {
-    width: 100%;
-    height: 60px;
-    background-color: var(--default-color);
-    align-items: center;
-    display: flex;
-}
-
-.menu nav {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-    height: 100%;
-}
-
-.menu-item {
-    position: relative;
-    z-index: 10;
-    height: 10%;
-    align-items: center;
-    display: flex;
-}
-
-.menu-item a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu-item a:hover {
-    transform: scale(1.02);
-    color: white;
-    transition: 0.1s;
-}
-
 /* Footer */
 footer {
     width: 100%;
@@ -275,7 +238,121 @@ footer .container {
     }
 }
 
-@media (max-width: 828px) { /* Resolução do iPhone XR em pixels */
+/* Cabeçalho */
+header {
+    width: 100%;
+    background-color: var(--bg1);
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-logo img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-menu .header-link {
+    text-decoration: none;
+    color: var(--text-color4);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-menu .header-link:hover {
+    color: var(--default-color);
+    transition: 0.5s ease;
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+    .header-menu .header-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1352px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg1);
+        padding: 20px;
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .header-menu.show {
+        left: 0;
+    }
+
+    .header-toggle {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: var(--text-color4);
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .header-close {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: var(--text-color4);
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .header-menu .header-link {
+        font-size: 20px;
+        margin: 10px 0; /* Espaçamento entre os itens do menu */
+    }
+}
+
+@media (max-width: 480px) {
+    .header-menu .header-link {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1352px) {
+    .header-toggle,
+    .header-close {
+        display: none;
+    }
+}
+
+@media (max-width: 828px) {
+    /* Resolução do iPhone XR em pixels */
     /* Cabeçalho */
     header .header-container {
         flex-direction: column; /* Coluna para centralizar conteúdo */
@@ -301,76 +378,69 @@ footer .container {
     }
 
     header .header-toggle {
-    display: block;
-    font-size: 22px;
-    background: none;
-    border: none;
-    color: var(--text-color4);
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 30px; /* Ajuste de posição para centralizar o botão */
-}
+        display: block;
+        font-size: 22px;
+        background: none;
+        border: none;
+        color: var(--text-color4);
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 30px; /* Ajuste de posição para centralizar o botão */
+    }
 
-header .header-close {
-    display: block;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: var(--text-color4);
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-}
-
+    header .header-close {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: var(--text-color4);
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+    }
 
     header .header-menu .header-link {
         font-size: 16px; /* Ajuste de tamanho para dispositivos menores */
         margin: 10px 0; /* Espaçamento entre os itens do menu */
     }
 
-    /* Menu */
-    .menu {
+    /* Footer */
+    footer .container {
+        display: flex;
         flex-direction: column; /* Coluna para centralizar conteúdo */
+        align-items: center; /* Centraliza as colunas na horizontal */
+        width: 400px; /* Aumenta o tamanho */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        margin-left: -160px; /* Ajuste de margem para deslocar um pouco para a esquerda */
     }
 
     /* Footer */
-footer .container {
-    display: flex;
-    flex-direction: column; /* Coluna para centralizar conteúdo */
-    align-items: center; /* Centraliza as colunas na horizontal */
-    width: 400px; /* Aumenta o tamanho */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    margin-left: -160px; /* Ajuste de margem para deslocar um pouco para a esquerda */
-}
-
-
     /* Footer */
-/* Footer */
-footer .footer-main {
-    display: flex;
-    flex-direction: column; /* Coluna para centralizar conteúdo */
-     /* Centraliza as colunas na horizontal */
-    width: 400px; /* Aumenta o tamanho */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    margin-top: 60px; /* Ajuste de margem para deslocar um pouco para baixo */
-    margin-left: 34px; /* Ajuste de margem para deslocar um pouco para a esquerda */
-}
+    footer .footer-main {
+        display: flex;
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+        /* Centraliza as colunas na horizontal */
+        width: 400px; /* Aumenta o tamanho */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        margin-top: 60px; /* Ajuste de margem para deslocar um pouco para baixo */
+        margin-left: 34px; /* Ajuste de margem para deslocar um pouco para a esquerda */
+    }
 
     footer .footer-column {
         margin-bottom: 15px; /* Espaço entre as colunas do footer */
     }
 
-  /* flutuantes */
+    /* flutuantes */
 
-.btn, .btn2 {
-    bottom: 10px; /* Ajuste de posição */
-    left: 350px; /* Ajuste de posição para a esquerda */
-    
-}
+    .btn,
+    .btn2 {
+        bottom: 10px; /* Ajuste de posição */
+        left: 350px; /* Ajuste de posição para a esquerda */
+    }
 
-.btn2 {
-    bottom: 65px; /* Ajuste de posição */
-    left: px; /* Ajuste de posição para a esquerda */
-}
+    .btn2 {
+        bottom: 65px; /* Ajuste de posição */
+        left: px; /* Ajuste de posição para a esquerda */
+    }
 }

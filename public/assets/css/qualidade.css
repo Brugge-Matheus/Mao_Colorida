@@ -1,3 +1,41 @@
+/* Menu home */
+.menu-qualidade {
+    width: 100%;
+    height: 60px;
+    background-color: var(--default-color);
+    align-items: center;
+    display: flex;
+}
+
+.menu-qualidade nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.menu-qualidade-item {
+    position: relative;
+    z-index: 10;
+    height: 10%;
+    align-items: center;
+    display: flex;
+}
+
+.menu-qualidade-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* responsivo Menu home */
+@media (max-width: 828px) {
+    .menu-qualidade {
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+    }
+}
+
 /* Melhorias */
 .melhoria {
     background-color: var(--bg1);
@@ -198,7 +236,6 @@
     margin: auto;
     align-items: center;
     text-align: center;
-    justify-content: center;
     gap: 20px;
 }
 .bn-contato .texto .barra {
@@ -301,5 +338,52 @@
         .estru-img {
             display: none;
         }
+    }
+}
+@media screen and (max-width: 768px) {
+    .metodologia-text {
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .metodologia-text h3 {
+        font-size: 24px;
+    }
+
+    .metodologia-text p {
+        font-size: 16px;
+    }
+
+    .metodologia-text .metodologia-topicos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .metodologia-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .metodologia-text {
+        padding: 0 5%;
+    }
+
+    .metodologia-text h3 {
+        font-size: 20px;
+    }
+
+    .metodologia-text p {
+        font-size: 14px;
+    }
+
+    .metodologia-text .metodologia-topicos {
+        gap: 15px;
+    }
+
+    .metodologia-img {
+        width: 90%;
+        margin-top: 10px;
     }
 }

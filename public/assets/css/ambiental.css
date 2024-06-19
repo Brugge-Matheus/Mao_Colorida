@@ -1,3 +1,41 @@
+/* Menu home */
+.menu-ambiental {
+    width: 100%;
+    height: 60px;
+    background-color: var(--default-color);
+    align-items: center;
+    display: flex;
+}
+
+.menu-ambiental nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.menu-ambiental-item {
+    position: relative;
+    z-index: 10;
+    height: 10%;
+    align-items: center;
+    display: flex;
+}
+
+.menu-ambiental-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* responsivo Menu home */
+@media (max-width: 828px) {
+    .menu-ambiental {
+        flex-direction: column; /* Coluna para centralizar conteúdo */
+    }
+}
+
 /* Sustentabilidade em foco */
 .processos-container {
     width: 100%;
@@ -68,8 +106,6 @@
     border-radius: 10px;
     object-fit: cover;
 }
-
-
 
 /* medidas */
 .medidas {
@@ -146,8 +182,6 @@
     background-color: var(--text-color4);
 }
 
-
-
 /* Modal styles */
 .modal {
     display: none;
@@ -186,8 +220,6 @@
     text-decoration: none;
     cursor: pointer;
 }
-
-
 
 /* Plano de gerenciamento */
 
@@ -266,9 +298,6 @@
     object-fit: cover;
 }
 
-
-
-
 /* disposicao */
 .disposicao-container {
     width: 100%;
@@ -338,4 +367,80 @@
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    /* Ajusta os elementos em tela pequena */
+
+    .processos .processos-container .processos-conteudo {
+        padding: 50px 0;
+    }
+
+    .processos-text {
+        width: 100%;
+    }
+
+    .processos .processos-container .processos-conteudo .container {
+        flex-direction: column;
+    }
+
+    .processos-img {
+        width: 100%;
+    }
+
+    .medidas {
+        padding: 50px;
+    }
+
+    .box-medidas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens-medidas {
+        width: 80%;
+    }
+
+    .ponto .ponto-container .ponto-conteudo {
+        padding: 50px 0;
+    }
+
+    .disposicao .disposicao-container .disposicao-conteudo {
+        padding: 50px 0;
+    }
+
+    .disposicao-text .disposicao-topicos {
+        flex-direction: column;
+    }
+
+    .disposicao-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /* Ajusta os elementos em tela extra pequena */
+
+    .processos-text {
+        width: 90%;
+    }
+
+    .itens-medidas {
+        width: 95%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .disposicao-text .disposicao-topicos {
+        flex-direction: column;
+    }
+
+    .disposicao-img {
+        width: 95%;
+    }
+
+    .ponto-img {
+        width: 95%;
+    }
 }

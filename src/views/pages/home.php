@@ -1,21 +1,21 @@
 <?php $render('header'); ?>
 
 
-<div class="menu" id="menu">
+<div class="menu-home" id="menu-home">
     <nav class="container">
-        <div class="menu-item">
+        <div class="menu-home-item">
             <a href="#nossa-historia">Quem somos</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-home-item">
             <a href="#nossa-estrutura">Nossa estrutura</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-home-item">
             <a href="#objetivos">Missão e valores</a>
         </div>
-        
-        <div class="menu-item">
+
+        <div class="menu-home-item">
             <a href="#parceiros">Parceiros</a>
         </div>
     </nav>
