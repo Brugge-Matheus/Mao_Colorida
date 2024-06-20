@@ -26,7 +26,7 @@
 <section class="nossa-historia" id="nossa-historia">
     <div class="container-historia container">
         <div class="hist-img">
-            <img src="<?=$base?>/assets/images/sobre-img.jpg" alt="sobre_nos_image">
+            <img src="./assets/images/sobre-img.jpg" alt="sobre_nos_image">
         </div>
         <div class="hist-text">
             <h2>Nossa história</h2>
@@ -62,7 +62,7 @@
                 <div>
                     <div class="estrutura-slide">
                         <!-- Ajuste o caminho da imagem de acordo com o nome do arquivo -->
-                        <img src="<?=$base?>/assets/images/estrutura/<?=$itensEstrutura[$i]?>">
+                        <img src="./assets/images/estrutura/<?=$itensEstrutura[$i]?>">
                         <h3><?=$estruturas[$i]?></h3>
                     </div>
                 </div>
@@ -88,19 +88,19 @@
 
         <div class="box-objetivos">
             <div class="itens-objetivos box1">
-                <img src="<?=$base?>/assets/images/icone-missão.png" alt="">
+                <img src="./assets/images/icone-missão.png" alt="">
                 <h2>Missão</h2>
                 <p>Utilizar nossa criatividade e as melhores tecnologias do mercado para tornar realidade os sonhos
                     e objetivos dos clientes</p>
             </div>
             <div class="itens-objetivos box2">
-                <img src="<?=$base?>/assets/images/icone-visao.png" alt="">
+                <img src="./assets/images/icone-visao.png" alt="">
                 <h2>Visão</h2>
                 <p>Ser uma empresa de vanguarda atendendo os clientes mais exigentes do mercado com uma equipe
                     motivada por resultados</p>
             </div>
             <div class="itens-objetivos box3">
-                <img src="<?=$base?>/assets/images/icone-coracao.png" alt="">
+                <img src="./assets/images/icone-coracao.png" alt="">
                 <h2>Valores</h2>
                 <p>A qualidade superior que entregamos ao nossos clientes junto com a busca da rentabilidade e do
                     crescimento do nosso negocio</p>
@@ -125,7 +125,7 @@
                 <?php for($i = 0; $i < $numItensMarcas; $i++): ?>
                 <div>
                     <div class="box">
-                        <img src="<?=$base?>/assets/images/marcas/<?=$itensMarcas[$i]?>" alt="imagem">
+                        <img src="./assets/images/marcas/<?=$itensMarcas[$i]?>" alt="imagem">
                     </div>
                 </div>
                 <?php endfor; ?>

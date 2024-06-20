@@ -7,8 +7,8 @@
     <div class="container">
         <div class="footer-logo">
             <picture href="">
-                <a href="<?=$base?>/">
-                    <img src="<?=$base?>/assets/images/logo-header.png">
+                <a href="./">
+                    <img src="./assets/images/logo-header.png">
                 </a>
             </picture>
             <a href="https://maps.app.goo.gl/vN8udS6GHy7YLrgD8">R. Augusto Dias Paredes,68 Boqueirão, <br> Curitiba/PR,
@@ -20,12 +20,12 @@
 
             <div class="footer-column">
                 <span>Menu</span>
-                <a href="<?=$base?>/" class="header-link">Sobre</a>
-                <a href="<?=$base?>/recursos" class="header-link">Recursos Humanos</a>
-                <a href="<?=$base?>/ambiental" class="header-link">Ambiental </a>
-                <a href="<?=$base?>/qualidade" class="header-link">Qualidade</a>
-                <a href="<?=$base?>/segurancas" class="header-link">Seguranças</a>
-                <a href="<?=$base?>/contato" class="header-link">Contato</a>
+                <a href="./" class="header-link">Sobre</a>
+                <a href="./recursos" class="header-link">Recursos Humanos</a>
+                <a href="./ambiental" class="header-link">Ambiental </a>
+                <a href="./qualidade" class="header-link">Qualidade</a>
+                <a href="./segurancas" class="header-link">Seguranças</a>
+                <a href="./contato" class="header-link">Contato</a>
             </div>
 
             <div class="footer-column">
@@ -53,9 +53,9 @@
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="<?=$base?>/assets/js/main.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 
 <!-- Slider -->
-<script src="<?=$base?>/assets/js/slider.js"></script>
-<script src="<?=$base?>/assets/js/functions.js"></script>
+<script src="./assets/js/slider.js"></script>
+<script src="./assets/js/functions.js"></script>

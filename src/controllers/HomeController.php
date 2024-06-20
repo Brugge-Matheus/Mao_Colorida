@@ -16,9 +16,11 @@ class HomeController extends Controller {
         'LASER',
         'MONTAGEM'
         ];
+        $itensEstrutura = null;
+        $itensMarcas = null;
 
-        $caminhoEstrutura = $_SERVER['DOCUMENT_ROOT'] . '/trabalho/public/assets/images/estrutura/';
-        $caminhoMarcas =  $_SERVER['DOCUMENT_ROOT'] . '/trabalho/public/assets/images/marcas/';
+        $caminhoEstrutura = $_SERVER['DOCUMENT_ROOT'] . '/assets/images/estrutura/';
+        $caminhoMarcas =  $_SERVER['DOCUMENT_ROOT'] . '/assets/images/marcas/';
             if (is_dir($caminhoEstrutura) && is_dir($caminhoMarcas)) {
 
                 // Obtém a lista de itens na pasta

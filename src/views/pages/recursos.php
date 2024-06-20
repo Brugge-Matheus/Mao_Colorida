@@ -34,20 +34,20 @@
 
         <div class="box-pagamentos">
             <div class="itens-pagamentos box1-pagamentos">
-                <img src="<?=$base?>/assets/icons/pagar.png" alt="">
+                <img src="./assets/icons/pagar.png" alt="">
                 <h2>Adiantamento</h2>
                 <p>Adiantamento salarial de 40% no dia 15 do mês. Saldo de salário creditado no ultimo dia de cada mês.
                 </p>
             </div>
             <div class="itens-pagamentos box2-pagamentos">
-                <img src="<?=$base?>/assets/icons/nota-de-dolar.png" alt="">
+                <img src="./assets/icons/nota-de-dolar.png" alt="">
                 <h2>Faltas</h2>
                 <p>No caso de faltas injustificadas, o funcionário terá descontado o dia de trabalho, o descanso semanal
                     remunerado e feriado na semana, se houver.
                 </p>
             </div>
             <div class="itens-pagamentos box3-pagamentos">
-                <img src="<?=$base?>/assets/icons/mala-de-viagem.png" alt="">
+                <img src="./assets/icons/mala-de-viagem.png" alt="">
                 <h2>Inicialização</h2>
                 <p>No 1º mês de trabalho, o funcionário não receberá nenhum adiantamento salarial, devendo aguardar até
                     o final do mês para receber.</p>
@@ -71,17 +71,17 @@
 
         <div class="box-beneficios">
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-vr.png" alt="">
+                <img src="./assets/images/logo-vr.png" alt="">
                 <h2>VR Pae</h2>
                 <p>Vale-Refeição do Programa de Alimentação do Trabalhador.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-vr.png" alt="">
+                <img src="./assets/images/logo-vr.png" alt="">
                 <h2>VR Nutrição</h2>
                 <p>Vale-Refeição para alimentação saudável e balanceada.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-vr.png" alt="">
+                <img src="./assets/images/logo-vr.png" alt="">
                 <h2>VR Seguro</h2>
                 <p> Vale-Refeição para garantir a segurança alimentar dos trabalhadores..</p>
 
@@ -89,32 +89,32 @@
         </div>
         <div class="box-beneficios">
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-totalpass.png" alt="">
+                <img src="./assets/images/logo-totalpass.png" alt="">
                 <h2>TotalPass </h2>
                 <p>Programa de acesso a academias e atividades físicas.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/icone-ginastica.png" alt="">
+                <img src="./assets/images/icone-ginastica.png" alt="">
                 <h2>Ginástica Laboral</h2>
                 <p>Exercícios físicos realizados no ambiente de trabalho.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-ferias.png" alt="">
+                <img src="./assets/images/logo-ferias.png" alt="">
                 <h2>Férias</h2>
                 <p>Período de descanso remunerado para os trabalhadores.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-estacionamento.png" alt="">
+                <img src="./assets/images/logo-estacionamento.png" alt="">
                 <h2>Estacionamento</h2>
                 <p>Vaga para estacionamento de veículos dos colaboradores.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-farmacia.png" alt="">
+                <img src="./assets/images/logo-farmacia.png" alt="">
                 <h2>Farmácia</h2>
                 <p>Benefício de desconto em medicamentos e produtos farmacêuticos.</p>
             </div>
             <div class="itens-beneficios">
-                <img src="<?=$base?>/assets/images/logo-vale-transporte.png" alt="">
+                <img src="./assets/images/logo-vale-transporte.png" alt="">
                 <h2>Vale Transporte</h2>
                 <p>Auxílio para cobrir despesas de transporte público dos trabalhadores.</p>
             </div>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="ponto-img d-flex">
-                    <img src="<?=$base?>/assets/images/imagem-ponto3.png" alt="imagem">
+                    <img src="./assets/images/imagem-ponto3.png" alt="imagem">
                 </div>
             </div>
         </div>
@@ -218,7 +218,7 @@
                 </div>
 
                 <div class="canais-img d-flex">
-                    <img src="<?=$base?>/assets/images/qr-code.png" alt="imagem">
+                    <img src="./assets/images/qr-code.png" alt="imagem">
                 </div>
 
             </div>

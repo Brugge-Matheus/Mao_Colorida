@@ -3,7 +3,7 @@
     <section class="sac">
         <div class="container">
             <div class="sac-titulo">
-                <img src="<?=$base?>/assets/icons/sac.jpg">
+                <img src="./assets/icons/sac.jpg">
                 <div class="text">
                     <h4>Fale conosco</h4>
                     <span>Sac</span>
@@ -44,7 +44,7 @@
                     <button class="sac-b ativo" id="btn-contato" data-target="sac-f">Contato</button>
                     <button class="financeiro-b" id="btn-trabalhe" data-target="financeiro-f">Indicações</button>
                 </div>
-                <form id="form-sac" class="contato-form sac-f ativado" action="<?=$base?>/contato" method="POST">
+                <form id="form-sac" class="contato-form sac-f ativado" action="./contato" method="POST">
                     <div class="form">
                         <input type="text" name="nome" placeholder="Nome completo">
                         <input type="text" class="phone_br" name="telefone" placeholder="Telefone">
@@ -53,7 +53,7 @@
                         <input type="submit" value="Enviar" id="enviar-financeiro">
                     </div>
                 </form>
-                <form id="form-financeiro" class="contato-form financeiro-f" action="<?=$base?>/trabalhe" method="POST">
+                <form id="form-financeiro" class="contato-form financeiro-f" action="./trabalhe" method="POST">
                     <div class="form">
                         <input type="text" name="nome" placeholder="Nome completo">
                         <input type="text" class="phone_br" name="telefone" placeholder="Telefone">
@@ -92,4 +92,4 @@
 </main>
 <?=$render('footer')?>
 
-<script src="<?=$base?>/assets/js/functions.js"></script>
+<script src="./assets/js/functions.js"></script>

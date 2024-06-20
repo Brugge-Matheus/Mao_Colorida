@@ -37,6 +37,7 @@
 }
 
 /* Segurança Patrimonial */
+
 .titulo-segurança-pat {
     width: 100%;
     flex-direction: column;
@@ -139,6 +140,8 @@
     gap: 10px;
 }
 
+
+
 /* Header Segurança do trabalho */
 .processos {
     width: 100%;
@@ -168,7 +171,6 @@
     font-size: 42px;
     font-weight: 600;
 }
-
 @media screen and (max-width: 768px) {
     .titulo-segurança-pat {
         padding: 50px 0;
@@ -182,7 +184,6 @@
         flex-direction: column;
         gap: 20px;
     }
-
     .seg-pat .texto1 {
         width: 100%;
     }
@@ -216,7 +217,6 @@
     .seg-pat .texto2 {
         gap: 20px;
     }
-
     .seg-pat .texto2 .topicos .box {
         padding: 10px 0;
     }
@@ -242,7 +242,6 @@
         flex-direction: column;
         gap: 20px;
     }
-
     @media screen and (max-width: 768px) {
         .seg-pat .container {
             display: flexx;
@@ -320,4 +319,162 @@
     .processos .titulo-processos h2 {
         font-size: 32px;
     }
+}
+
+
+
+
+/* Epis */
+.epis-container {
+    width: 100%;
+}
+
+.epis .epis-container .epis-conteudo {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.epis .epis-container .epis-conteudo .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.epis-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-titulo {
+    color: #f2b705;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1pxd;
+}
+
+.epis-text h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--greenColor);
+}
+.epis-topicos h2 {
+    color: var(--text-color4);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.epis-text p {
+    line-height: 1.2;
+    font-family: "Wix Madefor Text";
+}
+
+.epis-text i {
+    color: #1cbe80;
+}
+
+.epis-text .epis-topicos {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 25px;
+}
+
+.topico1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topico2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.epis-img {
+    width: 530px;
+}
+
+.epis-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+/* sesmt */
+.sesmt {
+    background-color: var(--bg1);
+    padding: 100px 0;
+}
+.sesmt .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sesmt-img {
+    width: 487px;
+}
+.sesmt-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.sesmt-text {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+}
+.sesmt-text h2 {
+    color: var(--text-color4);
+    font-weight: 600;
+    font-size: 2em;
+}
+.sesmt-text p {
+    color: var(--text-color4);
+}
+.sesmt-text a i,
+.sesmt-text button i {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+.sesmt-text .curriculoBtn {
+    width: 220px;
+    height: 64px;
+    color: #fff;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease 0.3s;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sesmt-text .curriculoBtn:hover {
+    background-color: var(--hover-red);
+    border: 1px solid var(--hover-red);
+    transition: ease 0.3s;
+}
+.sesmt-text .vagasBtn {
+    font-size: 19px;
+    color: var(--text-color);
+    font-weight: 600;
+    height: 64px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease 0.3s;
+}
+.sesmt-text .vagasBtn:hover {
+    color: var(--hover-red);
+    transition: ease 0.3s;
 }

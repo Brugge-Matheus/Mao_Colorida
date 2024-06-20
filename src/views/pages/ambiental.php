@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/processos-img.jpg" alt="imagem">
+                    <img src="./assets/images/processos-img.jpg" alt="imagem">
                 </div>
             </div>
         </div>
@@ -74,19 +74,19 @@
         <div class="box-medidas">
             <div class="itens-medidas"
                 data-text="Durante o manuseio dos resíduos, o manipulador deve usar luvas e avental impermeáveis de PVC.">
-                <img src="<?=$base?>/assets/icons/ppe.png" alt="">
+                <img src="./assets/icons/ppe.png" alt="">
                 <h2>Manuseio Correto</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
             <div class="itens-medidas"
                 data-text="Após a coleta interna, o manipulador deve lavar as mãos ainda enluvadas, retirar as luvas e colocá-las em local apropriado. Se as luvas romperem, devem ser descartadas imediatamente.">
-                <img src="<?=$base?>/assets/icons/litter.png" alt="">
+                <img src="./assets/icons/litter.png" alt="">
                 <h2>Coleta Interna</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
             <div class="itens-medidas"
                 data-text="Os equipamentos de proteção individual devem ser desinfetados diariamente. Se contaminados, devem ser substituídos ou lavados.">
-                <img src="<?=$base?>/assets/icons/wash-your-hands.png" alt="">
+                <img src="./assets/icons/wash-your-hands.png" alt="">
                 <h2>Equipamentos de Proteção</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
@@ -95,19 +95,19 @@
         <div class="box-medidas">
             <div class="itens-medidas"
                 data-text="Evitar comer ao lidar com resíduos é essencial para prevenir contaminações e promover higiene e segurança.">
-                <img src="<?=$base?>/assets/icons/no-food.png" alt="">
+                <img src="./assets/icons/no-food.png" alt="">
                 <h2>Não se Alimentar</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
             <div class="itens-medidas"
                 data-text="Ao realizar atividades não relacionadas aos resíduos, como ir ao sanitário, o manipulador deve retirar as luvas e lavar as mãos.">
-                <img src="<?=$base?>/assets/icons/gloves.png" alt="">
+                <img src="./assets/icons/gloves.png" alt="">
                 <h2>Retirar as Luvas</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
             <div class="itens-medidas"
                 data-text="Manter o ambiente limpo é essencial para a saúde e o bem-estar, proporcionando um espaço mais agradável e seguro.">
-                <img src="<?=$base?>/assets/icons/household.png" alt="">
+                <img src="./assets/icons/household.png" alt="">
                 <h2>Ambiente Limpo</h2>
                 <button class="ver-medida">Ver medida</button>
             </div>
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="plano-img d-flex">
-                    <img src="<?=$base?>/assets/images/pgrs.png" alt="imagem">
+                    <img src="./assets/images/pgrs.png" alt="imagem">
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
         <div class="disposicao-conteudo d-flex">
             <div class="container d-flex">
                 <div class="disposicao-img d-flex">
-                    <img src="<?=$base?>/assets/images/disposicao-de-residuos.jpg" alt="imagem">
+                    <img src="./assets/images/disposicao-de-residuos.jpg" alt="imagem">
                 </div>
                 <div class="disposicao-text d-flex">
                     <h3>DISPOSIÇÃO FINAL DOS RESÍDUOS</h3>
@@ -227,6 +227,6 @@
 
 
 
-<script src="<?=$base?>/assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 
 <?php $render('footer')?>

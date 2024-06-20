@@ -24,7 +24,7 @@
 <section class="melhoria" id="melhoria">
     <div class="container">
         <div class="melhoria-img">
-            <img src="<?=$base?>\assets\images\cartao_de_melhoria.jpg">
+            <img src="./assets/images/cartao_de_melhoria.jpg">
         </div>
         <div class="melhoria-text">
             <h2>Cartões de melhoria</h2>
@@ -38,9 +38,9 @@
                 quem implementa mais sugestões e R$300,00 para a melhor ideia implementada. Esse sistema motiva a
                 participação ativa dos funcionários e promove um ambiente de trabalho mais colaborativo e inovador.
             </p>
-            <a href="https://drive.google.com/file/d/1pQc7HF5slhqlCLOxq9WMLlXrGL65BcUt/view?usp=drive_link"
+            <a href="//drive.google.com/file/d/1pQc7HF5slhqlCLOxq9WMLlXrGL65BcUt/view?usp=drive_link"
                 class="curriculoBtn" target="_blank">Como preencher? <i class="fa-solid fa-pen"></i></a>
-            <a href="https://app.smartsheet.com/b/form/0478814e620a4e1eb2fbff2ad4275e31" target="_blank"
+            <a href="//app.smartsheet.com/b/form/0478814e620a4e1eb2fbff2ad4275e31" target="_blank"
                 class="vagasBtn" target="_blank">Preencher cartão <i class="fa-solid fa-clipboard"></i></a>
         </div>
     </div>
@@ -66,7 +66,7 @@
             </p>
         </div>
         <div class="trat-img">
-            <img src="<?=$base?>\assets\images\tratativa-nao-conforme.jpg">
+            <img src="./assets/images/tratativa-nao-conforme.jpg">
         </div>
     </div>
 </section>
@@ -80,7 +80,7 @@
         <div class="metodologia-conteudo d-flex">
             <div class="container d-flex">
                 <div class="metodologia-img d-flex">
-                    <img src="<?=$base?>/assets/images/metodologia.jpg" alt="imagem">
+                    <img src="./assets/images/metodologia.jpg" alt="imagem">
                 </div>
                 <div class="metodologia-text d-flex">
                     <h3>METODOLOGIA 5S</h3>

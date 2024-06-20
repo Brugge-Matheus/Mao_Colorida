@@ -45,13 +45,11 @@
                     </p>
                 </div>
                 <div class="processos-img d-flex">
-                    <img src="<?=$base?>/assets/images/img-seguranca-do-trabalho.jpg" alt="imagem">
+                    <img src="./assets/images/img-seguranca-do-trabalho.jpg" alt="imagem">
                 </div>
             </div>
         </div>
 </section>
-
-
 
 <!-- Epis -->
 <section class="epis d-flex" id="epis">
@@ -59,7 +57,7 @@
         <div class="epis-conteudo d-flex">
             <div class="container d-flex">
                 <div class="epis-img d-flex">
-                    <img src="<?=$base?>/assets/images/epis.jpeg" alt="imagem">
+                    <img src="./assets/images/epis.jpeg" alt="imagem">
                 </div>
                 <div class="epis-text d-flex">
                     <h3> RESPONSABILIDADE COM EPI'S</h3>
@@ -99,7 +97,7 @@
 <section class="sesmt" id="sesmt">
     <div class="container">
         <div class="sesmt-img">
-            <img src="<?=$base?>\assets\images\sesmt.png">
+            <img src=".\assets\images\sesmt.png">
         </div>
         <div class="sesmt-text">
             <h2>Como evitar acidentes de trabalho?</h2>
@@ -136,7 +134,7 @@
                 A Mão Colorida não assume qualquer responsabilidade por objetos de valor deixados nos armários. É
                 importante ressaltar que a guarda e segurança desses pertences são inteiramente de responsabilidade
                 do próprio colaborador</p>
-            <img src="<?=$base?>/assets/images/imagem-seg-pat.jpg" alt="imagem">
+            <img src="./assets/images/imagem-seg-pat.jpg" alt="imagem">
         </div>
         <div class="texto2 d-flex">
             <div class="titulo d-flex ">
@@ -145,7 +143,7 @@
             <div class="topicos d-flex">
                 <div class="box">
                     <div class="d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
+                        <img src="./assets/icons/seta.png" alt="" class="icon-seta">
                     </div>
                     <div class="box-texto d-flex">
                         <h4>Proibido fotografar</h4>
@@ -157,7 +155,7 @@
                 </div>
                 <div class="box">
                     <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
+                        <img src="./assets/icons/seta.png" alt="" class="icon-seta">
                     </div>
                     <div class="box-texto d-flex">
                         <h4>Uso de objetos</h4>
@@ -168,7 +166,7 @@
                 </div>
                 <div class="box">
                     <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
+                        <img src="./assets/icons/seta.png" alt="" class="icon-seta">
                     </div>
                     <div class="box-texto d-flex">
                         <h4>Portar bolsas</h4>
@@ -179,7 +177,7 @@
                 </div>
                 <div class="box">
                     <div class="box-icon d-flex">
-                        <img src="<?=$base?>/assets/icons/seta.png" alt="" class="icon-seta">
+                        <img src="./assets/icons/seta.png" alt="" class="icon-seta">
                     </div>
                     <div class="box-texto d-flex">
                         <h4>Uso de celulares</h4>
