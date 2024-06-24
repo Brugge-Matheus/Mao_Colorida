@@ -13,7 +13,7 @@
             </picture>
             <a href="https://maps.app.goo.gl/vN8udS6GHy7YLrgD8">R. Augusto Dias Paredes,68 Boqueirão, <br> Curitiba/PR,
                 Brasil</a>
-            <a href="tel:31227550 "> +55 41 3122.7550 </a>
+            <a href="tel:31227550 "> +55 41 3122-7550 </a>
         </div>
 
         <div class="footer-main">
@@ -30,8 +30,10 @@
 
             <div class="footer-column">
                 <span>Politícas</span>
-                <a href="https://drive.google.com/file/d/1pTM3rqpx2Dkc3Gf_-8fqvAC2zqE72bE9/view?usp=sharing" target="_blank">Termos de uso</a>
-                <a href="https://drive.google.com/file/d/1Dw-gnThAosqbO2TeoCHIFHBy4a9nEjUQ/view?usp=sharing" target="_blank">LGPD</a>
+                <a href="https://drive.google.com/file/d/1pTM3rqpx2Dkc3Gf_-8fqvAC2zqE72bE9/view?usp=sharing"
+                    target="_blank">Termos de uso</a>
+                <a href="https://drive.google.com/file/d/1Dw-gnThAosqbO2TeoCHIFHBy4a9nEjUQ/view?usp=sharing"
+                    target="_blank">LGPD</a>
             </div>
 
             <div class="footer-column">

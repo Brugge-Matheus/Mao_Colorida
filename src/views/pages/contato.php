@@ -27,8 +27,9 @@
         <div class="container">
             <div class="contato-info">
                 <h2>Fale conosco</h2>
-                <a href="" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i> maocolorida@maocolorida.com.br</a>
+                <a href="tel:+31227550" target="_blank"><i class="fa-solid fa-phone"></i> +55 (41) 3122-7550</a>
+                <a href="mailto:maocolorida@maocolorida.com.br?subject=Dúvida&body=Olá, gostaria de tirar uma dúvida"
+                    target="_blank"><i class="fa-solid fa-envelope"></i> maocolorida@maocolorida.com.br</a>
                 <a href="https://www.instagram.com/maocoloridacv/?hl=pt#" target="_blank"><i
                         class="fa-brands fa-instagram"></i> @maocolorida</a>
                 <a href="http://linkedin.com.br/company/m%C3%A3o-colorida" target="_blank"><i

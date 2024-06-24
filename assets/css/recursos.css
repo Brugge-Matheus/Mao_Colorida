@@ -286,11 +286,11 @@
 .plano-img {
     width: 530px;
 }
-
 .plano-img img {
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
+    margin-top: 120px;
 }
 
 /* Canais de denuncia */
@@ -502,3 +502,18 @@
         margin-left: -120px;
     }
 }
+@media only screen and (max-width: 828px){
+.menu-recursos {
+    height: 80px; /* Reduz a altura do menu em telas menores */
+}
+
+.menu-recursos nav {
+    width: 100%; /* Aumenta a largura do nav para usar mais espaço disponível */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    justify-content: space-between; /* Aumenta o espaço entre os itens */
+}
+
+.menu-recursos nav a { /* Supondo que os itens do nav sejam links <a> */
+    margin: 0 10px; /* Adiciona margem entre os itens */
+}}
+

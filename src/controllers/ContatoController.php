@@ -8,8 +8,8 @@ use \src\models\Curriculo;
 class ContatoController extends Controller {
    
    public function contato() {
-      $flash = filter_input(INPUT_GET, 'flash', FILTER_SANITIZE_STRING);
-      $correct = filter_input(INPUT_GET, 'correct', FILTER_SANITIZE_STRING);
+      $flash = filter_input(INPUT_GET, 'flash', FILTER_SANITIZE_SPECIAL_CHARS);
+      $correct = filter_input(INPUT_GET, 'correct', FILTER_SANITIZE_SPECIAL_CHARS);
 
       $this->render('contato', [
          'flash' => $flash,
