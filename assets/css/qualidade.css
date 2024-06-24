@@ -235,6 +235,7 @@
     width: 100%;
     margin: auto;
     align-items: center;
+    justify-content: center;
     text-align: center;
     gap: 20px;
 }
@@ -387,22 +388,23 @@
         margin-top: 10px;
     }
 }
-@media only screen and (max-width: 828px){
-.menu-qualidade {
-    height: 90px; /* Reduz a altura do menu em telas menores */
-}
+@media only screen and (max-width: 828px) {
+    .menu-qualidade {
+        height: 90px; /* Reduz a altura do menu em telas menores */
+    }
 
-.menu-qualidade nav {
-    width: 100%; /* Aumenta a largura do nav para usar mais espaço disponível */
-    justify-content: space-between; /* Aumenta o espaço entre os itens */
-}
+    .menu-qualidade nav {
+        width: 100%; /* Aumenta a largura do nav para usar mais espaço disponível */
+        justify-content: space-between; /* Aumenta o espaço entre os itens */
+    }
 
-.menu-qualidade-item {
-    margin: 0 12px; /* Adiciona margem entre os itens */
-    height: 1%; /* Reduz a altura dos itens */
-    padding: 5px 0; /* Ajusta o padding para reduzir a altura dos itens */
-}
+    .menu-qualidade-item {
+        margin: 0 12px; /* Adiciona margem entre os itens */
+        height: 1%; /* Reduz a altura dos itens */
+        padding: 5px 0; /* Ajusta o padding para reduzir a altura dos itens */
+    }
 
-.menu-qualidade-item a {
-    font-size: 15px; /* Diminui o tamanho da fonte dos itens */
-}}
+    .menu-qualidade-item a {
+        font-size: 15px; /* Diminui o tamanho da fonte dos itens */
+    }
+}
