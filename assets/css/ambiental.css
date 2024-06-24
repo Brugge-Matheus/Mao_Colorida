@@ -27,6 +27,7 @@
 .menu-ambiental-item a {
     color: #fff;
     text-decoration: none;
+    font-size: 15px;
 }
 
 /* responsivo Menu home */
@@ -445,29 +446,31 @@
     }
 }
 
-@media only screen and (max-width: 828px){
-.menu-ambiental-item {
-    margin: 2px; /* Adiciona margem entre os itens */
-    font-size: 12px; /* Diminui o tamanho da fonte dos itens */
-}
-.menu-ambiental {
-    height: 90px; /* Reduz a altura do menu em telas menores */
-}
+@media only screen and (max-width: 828px) {
+    .menu-ambiental-item {
+        margin: 2px; /* Adiciona margem entre os itens */
+        font-size: 12px; /* Diminui o tamanho da fonte dos itens */
+    }
+    .menu-ambiental {
+        height: 90px; /* Reduz a altura do menu em telas menores */
+    }
 
-.menu-ambiental nav {
-    width: 100%; /* Aumenta a largura do nav para usar mais espaço disponível */
-    justify-content: space-between; /* Aumenta o espaço entre os itens */
-}
+    .menu-ambiental nav {
+        width: 100%; /* Aumenta a largura do nav para usar mais espaço disponível */
+        justify-content: space-between; /* Aumenta o espaço entre os itens */
+    }
 
-.menu-ambiental-item {
-    margin: 0 3; /* Adiciona margem entre os itens */
-    font-size: 12px; /* Diminui o tamanho da fonte dos itens */
-    height: 0%; /* Reduz a altura dos itens */
-    padding: 5px 0; }
+    .menu-ambiental-item {
+        margin: 0 3; /* Adiciona margem entre os itens */
+        font-size: 12px; /* Diminui o tamanho da fonte dos itens */
+        height: 0%; /* Reduz a altura dos itens */
+        padding: 5px 0;
+    }
 
     .disposicao-img img {
         width: 100%;
         border-radius: 10px;
         object-fit: cover;
         margin-left: -92px;
-}}
+    }
+}

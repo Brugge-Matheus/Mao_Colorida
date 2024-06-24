@@ -3,11 +3,11 @@
 <div class="menu-ambiental" id="menu-ambiental">
     <nav class="container">
         <div class="menu-ambiental-item">
-            <a href="#nosso-foco">Sustentabilidade em foco</a>
+            <a href="#nosso-foco">Sustentabilidade</a>
         </div>
 
         <div class="menu-ambiental-item">
-            <a href="#medidas">Nossas medidas</a>
+            <a href="#medidas">medidas</a>
         </div>
 
         <div class="menu-ambiental-item">
@@ -15,7 +15,7 @@
         </div>
 
         <div class="menu-ambiental-item">
-            <a href="#disposicao">Disposição de resíduos</a>
+            <a href="#disposicao">Disposição</a>
         </div>
     </nav>
 </div>

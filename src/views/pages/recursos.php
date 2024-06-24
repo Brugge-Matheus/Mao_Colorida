@@ -16,7 +16,7 @@
         </div>
 
         <div class="menu-recursos-item">
-            <a href="#canais">Canais de denúncia</a>
+            <a href="#canais">Canais</a>
         </div>
 </div>
 </nav>
