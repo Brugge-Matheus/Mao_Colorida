@@ -15,6 +15,10 @@ class ComposerStaticInit4ac30facc6416d068f2ec2883c245b52
         array (
             'core\\' => 5,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
         'C' => 
         array (
             'ClanCats\\Hydrahon\\' => 18,
@@ -30,6 +34,10 @@ class ComposerStaticInit4ac30facc6416d068f2ec2883c245b52
         array (
             0 => __DIR__ . '/../..' . '/core',
         ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
         'ClanCats\\Hydrahon\\' => 
         array (
             0 => __DIR__ . '/..' . '/clancats/hydrahon/src',
@@ -37,7 +45,53 @@ class ComposerStaticInit4ac30facc6416d068f2ec2883c245b52
     );
 
     public static $classMap = array (
+        'ClanCats\\Hydrahon\\BaseQuery' => __DIR__ . '/..' . '/clancats/hydrahon/src/BaseQuery.php',
+        'ClanCats\\Hydrahon\\Builder' => __DIR__ . '/..' . '/clancats/hydrahon/src/Builder.php',
+        'ClanCats\\Hydrahon\\Exception' => __DIR__ . '/..' . '/clancats/hydrahon/src/Exception.php',
+        'ClanCats\\Hydrahon\\Query\\Expression' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Expression.php',
+        'ClanCats\\Hydrahon\\Query\\Sql' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Base' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Base.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Delete' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Delete.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Drop' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Drop.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Exception' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Exception.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Exists' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Exists.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\FetchableInterface' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/FetchableInterface.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Func' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Func.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Insert' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Insert.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Replace' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Replace.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Select' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Select.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\SelectBase' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/SelectBase.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\SelectJoin' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/SelectJoin.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Table' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Table.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Truncate' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Truncate.php',
+        'ClanCats\\Hydrahon\\Query\\Sql\\Update' => __DIR__ . '/..' . '/clancats/hydrahon/src/Query/Sql/Update.php',
+        'ClanCats\\Hydrahon\\TranslatorInterface' => __DIR__ . '/..' . '/clancats/hydrahon/src/TranslatorInterface.php',
+        'ClanCats\\Hydrahon\\Translator\\Mysql' => __DIR__ . '/..' . '/clancats/hydrahon/src/Translator/Mysql.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PHPMailer\\PHPMailer\\DSNConfigurator' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/DSNConfigurator.php',
+        'PHPMailer\\PHPMailer\\Exception' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/Exception.php',
+        'PHPMailer\\PHPMailer\\OAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/OAuth.php',
+        'PHPMailer\\PHPMailer\\OAuthTokenProvider' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/OAuthTokenProvider.php',
+        'PHPMailer\\PHPMailer\\PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/PHPMailer.php',
+        'PHPMailer\\PHPMailer\\POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/POP3.php',
+        'PHPMailer\\PHPMailer\\SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/SMTP.php',
+        'core\\Controller' => __DIR__ . '/../..' . '/core/Controller.php',
+        'core\\Database' => __DIR__ . '/../..' . '/core/Database.php',
+        'core\\Model' => __DIR__ . '/../..' . '/core/Model.php',
+        'core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
+        'core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
+        'core\\RouterBase' => __DIR__ . '/../..' . '/core/RouterBase.php',
+        'src\\Config' => __DIR__ . '/../..' . '/src/Config.php',
+        'src\\controllers\\AmbientalController' => __DIR__ . '/../..' . '/src/controllers/AmbientalController.php',
+        'src\\controllers\\ContatoController' => __DIR__ . '/../..' . '/src/controllers/ContatoController.php',
+        'src\\controllers\\ErrorController' => __DIR__ . '/../..' . '/src/controllers/ErrorController.php',
+        'src\\controllers\\HomeController' => __DIR__ . '/../..' . '/src/controllers/HomeController.php',
+        'src\\controllers\\QualidadeController' => __DIR__ . '/../..' . '/src/controllers/QualidadeController.php',
+        'src\\controllers\\RecursosController' => __DIR__ . '/../..' . '/src/controllers/RecursosController.php',
+        'src\\controllers\\SegurancasController' => __DIR__ . '/../..' . '/src/controllers/SegurancasController.php',
+        'src\\models\\Contato' => __DIR__ . '/../..' . '/src/models/Contato.php',
+        'src\\models\\Curriculo' => __DIR__ . '/../..' . '/src/models/Curriculo.php',
+        'src\\models\\Test' => __DIR__ . '/../..' . '/src/models/Test.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

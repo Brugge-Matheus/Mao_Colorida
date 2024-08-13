@@ -1,15 +1,18 @@
 <?php
+
 namespace src\controllers;
 
 use \core\Controller;
 use \src\models\Contato;
 use \src\models\Curriculo;
 
-class ContatoController extends Controller {
-   
-   public function contato() {
-      $flash = filter_input(INPUT_GET, 'flash', FILTER_SANITIZE_STRING);
-      $correct = filter_input(INPUT_GET, 'correct', FILTER_SANITIZE_STRING);
+class ContatoController extends Controller
+{
+
+   public function contato()
+   {
+      $flash = filter_input(INPUT_GET, 'flash', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+      $correct = filter_input(INPUT_GET, 'correct', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
       $this->render('contato', [
          'flash' => $flash,
@@ -17,7 +20,8 @@ class ContatoController extends Controller {
       ]);
    }
 
-   public function contatoAction() {
+   public function contatoAction()
+   {
       $name = filter_input(INPUT_POST, 'nome');
       $phone = filter_input(INPUT_POST, 'telefone');
       $email = filter_input(INPUT_POST, 'email');
@@ -42,7 +46,8 @@ class ContatoController extends Controller {
       $this->redirect('/contato?flash=Campos+n%C3%A3o+preenchidos+corretamente!#sac-contato');
    }
 
-   public function trabalheAction() {
+   public function trabalheAction()
+   {
       $name = filter_input(INPUT_POST, 'nome');
       $phone = filter_input(INPUT_POST, 'telefone');
       $email = filter_input(INPUT_POST, 'email');

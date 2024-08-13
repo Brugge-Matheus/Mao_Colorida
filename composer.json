@@ -1,7 +1,8 @@
 {
     "require": {
         "clancats/hydrahon": "^1.1",
-        "components/jquery": "^3.6"
+        "components/jquery": "^3.6",
+        "phpmailer/phpmailer": "^6.9"
     },
     "autoload": {
         "psr-4": {
